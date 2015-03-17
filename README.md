@@ -45,7 +45,7 @@ together into combinations.
 Every set of kata will have at least three levels of difficulty.  The simple
 should be a nice starting point, and the expert levels ideally fiendish.
 
-### Basic Motion
+### Import
 
 Getting data from point A to B is a critical and basic to every analytic
 process.  
@@ -58,16 +58,10 @@ craggiest 6 degree black belt has to acquire data from somewhere.
 #### Change
 
 Parsing, modification and testing - we have a variety of ways of fixing,
-improving and changing data on a row by row basis.  
+improving and changing data on a row by row basis and prepping it for the
+analytics to come.  
 
-#### Share
-
-You were taught to share at a young age, team building encourages sharing.  Why
-should this be any different?  The formats are often simple - Excel thrives at
-this point, with PDF's shortly behind.  Getting the data to a useful and
-accessible location can be a little tricky.
-
-### Joins
+### Join
 
 One of these things is not like another.  Or is it?
 
@@ -117,6 +111,24 @@ analytic toolsets deliver at least rudimentary measures.
 Simple bar charts and line graphs can bring to life stories that capture the
 imagination of your viewers and change the world.  Or at the very least, avoid
 the dreaded "Sea of Numbers" problem.
+
+### Tell
+
+#### Share
+
+You were taught to share at a young age, team building encourages sharing.  Why
+should this be any different?  The formats are often simple - Excel thrives at
+this point, with PDF's shortly behind.  Getting the data to a useful and
+accessible location can be a little tricky.
+
+#### Write a story
+
+There's a blurry line between humanity and storytelling.  Assemble your great
+anlaytics in a way that can change the world around you.  This is truly black
+belt level work, but it's also the most important thing you can do with data.
+
+Algorithms are fine and dandy, but if they don't make sense, you can't fix
+things.
 
 Choice of Analytic Tools
 ===

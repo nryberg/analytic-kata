@@ -7,6 +7,10 @@ student can learn from and demonstrate mastery of the art.  In this case, we're
 kicking bits and bytes, and chopping rows of data, but the idea of continually
 improving is the same. 
 
+While this is hosted in Github for convenience, it's a system that can be ported
+to almost any learning and analytic environment.  Individual dialects (R,
+Python, Tableau, Alteryx, SAS, etc...) will be constructed for each set of kata.
+
 Mastery of Technique
 ---
 

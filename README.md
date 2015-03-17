@@ -45,6 +45,13 @@ together into combinations.
 Every set of kata will have at least three levels of difficulty.  The simple
 should be a nice starting point, and the expert levels ideally fiendish.
 
+The major categories are:
+
+* Import
+* Join 
+* Learn
+* Share
+
 ### Import
 
 Getting data from point A to B is a critical and basic to every analytic
@@ -88,7 +95,7 @@ dataset to every possible match of another dataset.  While this can generate
 massive amounts of data, it can also open up insights otherwise impossible to
 uncover.
 
-### Data Patterns
+### Learn
 
 Your data is a given, but underneath the covers are patterns of groups and
 statistical insights.  
@@ -112,9 +119,9 @@ Simple bar charts and line graphs can bring to life stories that capture the
 imagination of your viewers and change the world.  Or at the very least, avoid
 the dreaded "Sea of Numbers" problem.
 
-### Tell
+### Share
 
-#### Share
+#### Export 
 
 You were taught to share at a young age, team building encourages sharing.  Why
 should this be any different?  The formats are often simple - Excel thrives at

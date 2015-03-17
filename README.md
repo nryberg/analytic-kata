@@ -55,10 +55,10 @@ process.
 This is no different than "wipe on, wipe off".  The youngest novice to the
 craggiest 6 degree black belt has to acquire data from somewhere. 
 
-#### Move
+#### Change
 
-Without qualification or modification, sometimes you simply need to migrate your
-data from one location to another.  Clean and simple.  
+Parsing, modification and testing - we have a variety of ways of fixing,
+improving and changing data on a row by row basis.  
 
 #### Share
 
@@ -70,6 +70,53 @@ accessible location can be a little tricky.
 ### Joins
 
 One of these things is not like another.  Or is it?
+
+#### Matched Joins
+
+The simplest of concepts - a one to one match.  Things get a little more
+complicated with many-to-one and one-to-many, but this is basic relationships.
+
+#### Unmatched Joins
+
+You had a great dinner but made a little too much and now it's sitting in the
+fridge.  These are leftovers and can be just as delicious the next day for
+lunch. 
+
+Not every dataset matches every other dataset, and the leftovers can be just as
+interesting or more so than the original.
+
+Think left/right outer joins.  
+
+#### Cartesian Joins
+
+Rarely but significantly it makes sense to join every possible match of one
+dataset to every possible match of another dataset.  While this can generate
+massive amounts of data, it can also open up insights otherwise impossible to
+uncover.
+
+### Data Patterns
+
+Your data is a given, but underneath the covers are patterns of groups and
+statistical insights.  
+
+#### Groups
+
+We as humans pigeonhole.  It's our superpower.  We group this batch of items
+together with that attribute and it's how we can even make sense of the larger
+patterns of life.  These groups are typically text or date, but can include
+numeric labels.
+
+#### Statistics
+
+Numbers themselves tell a story.  Hook them up to an overall understanding of
+your data, and descriptive stats can unearth some amazing information, and most
+analytic toolsets deliver at least rudimentary measures.
+
+#### Visual Patterns
+
+Simple bar charts and line graphs can bring to life stories that capture the
+imagination of your viewers and change the world.  Or at the very least, avoid
+the dreaded "Sea of Numbers" problem.
 
 Choice of Analytic Tools
 ===

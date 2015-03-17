@@ -42,18 +42,36 @@ Most martial arts disciplines have a variety of basic moves using parts of the b
 combinations.  Analytics has a similar vocabulary of moves that are built
 together into combinations.
 
-### Motion
+Every set of kata will have at least three levels of difficulty.  The simple
+should be a nice starting point, and the expert levels ideally fiendish.
+
+### Basic Motion
 
 Getting data from point A to B is a critical and basic to every analytic
 process.  
 
 #### Gather
 
+This is no different than "wipe on, wipe off".  The youngest novice to the
+craggiest 6 degree black belt has to acquire data from somewhere. 
+
 #### Move
+
+Without qualification or modification, sometimes you simply need to migrate your
+data from one location to another.  Clean and simple.  
 
 #### Share
 
-Your Choice of Martial Analytic Art Tools
+You were taught to share at a young age, team building encourages sharing.  Why
+should this be any different?  The formats are often simple - Excel thrives at
+this point, with PDF's shortly behind.  Getting the data to a useful and
+accessible location can be a little tricky.
+
+### Joins
+
+One of these things is not like another.  Or is it?
+
+Choice of Analytic Tools
 ===
 
 Within the world of every major martial art form is hundreds of variations.  Two

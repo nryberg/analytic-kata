@@ -59,7 +59,9 @@ The major categories are:
 ### Import
 
 Getting data from point A to B is a critical and basic to every analytic
-process.  
+process. 
+
+[Import](./import)
 
 #### Gather
 

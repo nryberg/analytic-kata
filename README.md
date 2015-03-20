@@ -55,32 +55,26 @@ The major categories are:
 * Connect - join datasets into a more comprehensive picture
 * Change - apply formulas and clean up data
 * Choose - select the columns you need and filter the rows that are important
-* Categorize - group similar things together 
-* Compare - learn and understand the deeper visual and statistic patterns
+* Compare - group similar things together, understand the deeper visual and statistic patterns
 
 - - - 
 
-### Collect
+### [Collect](./collect/README.md)
 
 Getting data from point A to B is a critical and basic to every analytic
 process. 
 
-[Import](./import)
+#### Text Files 
 
-#### Gather
+CSV, the universal language of datasets
 
-This is no different than "wipe on, wipe off".  The youngest novice to the
-craggiest 6 degree black belt has to acquire data from somewhere. 
+#### Databases
 
-#### Change
+Basic connections and SQL to get you off the ground.
 
-Parsing, modification and testing - we have a variety of ways of fixing,
-improving and changing data on a row by row basis and prepping it for the
-analytics to come.  
- 
 - - - 
 
-### Join
+### Connect
 
 One of these things is not like another.  Or is it?
 
@@ -107,7 +101,61 @@ dataset to every possible match of another dataset.  While this can generate
 massive amounts of data, it can also open up insights otherwise impossible to
 uncover.
 
-### Learn
+#### Gather
+
+This is no different than "wipe on, wipe off".  The youngest novice to the
+craggiest 6 degree black belt has to acquire data from somewhere. 
+
+- - - 
+
+### Change
+
+Parsing, modification and testing - we have a variety of ways of fixing,
+improving and changing data on a row by row basis and prepping it for the
+analytics to come.  
+
+#### Parsing
+
+Splitting hairs or data is often similarly frustrating.  The hard part is just
+finding the delimiter.
+
+#### Formulas
+
+Some tools are fantastic with formulas - think Excel, others not so much.  Every
+toolset needs to be able to modify data.
+
+#### Testing
+
+The often neglected science of knowing whether or not you're on the right path
+must be in every analyst's toolbelt.  
+
+- - - 
+
+### Choose 
+
+#### Selection 
+
+Choose your friends and columns wisely, for they will help determine if you will
+successfully finish your analytic on time, under budget and with great results. 
+
+While every dataset can be enhanced with joined data, almost every dataset has
+too much to say. Pare and prune the data to just the columns you need and be
+confident you can always add back what was removed.
+
+#### Filtering
+
+Inch by inch, row by row, the complement to selection is choosing what to focus
+on.  One billion rows can encompass the world of your analytics, but at its
+heart what really matters is just a few thousand rows of critical information.
+
+#### Sampling
+
+Judgement, random or stratified, different tools can give you widely different
+results for creating small test populations and statistical projections.
+
+- - - 
+
+### Compare
 
 Your data is a given, but underneath the covers are patterns of groups and
 statistical insights.  
@@ -131,23 +179,7 @@ Simple bar charts and line graphs can bring to life stories that capture the
 imagination of your viewers and change the world.  Or at the very least, avoid
 the dreaded "Sea of Numbers" problem.
 
-### Share
-
-#### Export 
-
-You were taught to share at a young age, team building encourages sharing.  Why
-should this be any different?  The formats are often simple - Excel thrives at
-this point, with PDF's shortly behind.  Getting the data to a useful and
-accessible location can be a little tricky.
-
-#### Write a story
-
-There's a blurry line between humanity and storytelling.  Assemble your great
-anlaytics in a way that can change the world around you.  This is truly black
-belt level work, but it's also the most important thing you can do with data.
-
-Algorithms are fine and dandy, but if they don't make sense, you can't fix
-things.
+- - - 
 
 Choice of Analytic Tools
 ===

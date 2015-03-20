@@ -51,12 +51,16 @@ should be a nice starting point, and the expert levels ideally fiendish.
 
 The major categories are:
 
-* Import
-* Join 
-* Learn
-* Share
+* Collect - gather the data and prep it for analysis
+* Connect - join datasets into a more comprehensive picture
+* Change - apply formulas and clean up data
+* Choose - select the columns you need and filter the rows that are important
+* Categorize - group similar things together 
+* Compare - learn and understand the deeper visual and statistic patterns
 
-### Import
+- - - 
+
+### Collect
 
 Getting data from point A to B is a critical and basic to every analytic
 process. 
@@ -73,6 +77,8 @@ craggiest 6 degree black belt has to acquire data from somewhere.
 Parsing, modification and testing - we have a variety of ways of fixing,
 improving and changing data on a row by row basis and prepping it for the
 analytics to come.  
+ 
+- - - 
 
 ### Join
 

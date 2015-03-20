@@ -12,7 +12,7 @@ type TestRecord struct {
 }
 
 func main() {
-	filename := "/Users/Nick/data/financial_insitition/all_2012/ALL_2012.csv"
+	filename := "../samples/banks.csv"
 	csvfile, err := os.Open(filename)
 
 	if err != nil {

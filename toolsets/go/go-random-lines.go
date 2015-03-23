@@ -7,36 +7,16 @@ import (
 	"io"
 	"math/rand"
 	"os"
-	"strconv"
 	"time"
 )
-
-//func simple_sample(rdr *io.Reader) {
-//}
-
-func fetchLine(f *os.File, line int) string {
-	count := 0
-	s := bufio.NewScanner(f)
-	var output string
-	for s.Scan() {
-
-		if count == line {
-			output = s.Text()
-		}
-		count += 1
-	}
-	return output
-}
 
 func main() {
 	rand.Seed(time.Now().UTC().UnixNano())
 	infile := "/users/nick/data/financial_insitition/all_2012/all_2012.csv"
 	outfile := "../samples/banks.csv"
 	sample_size := 10
-	//rnd := rand.Intn(10)
-	//fmt.Println(rnd)
-	fmt.Println(infile)
-	fmt.Println(outfile)
+	line_index := make(map[int]int)
+
 	f, err := os.Open(infile)
 	if err != nil {
 		fmt.Printf("error opening file: %v\n", err)
@@ -54,55 +34,30 @@ func main() {
 	count, err := lineCounter(f)
 	f.Seek(0, 0)
 
-	// TODO: Create array of line numbers, sort the array and then
-	// simply pull those.  No need to seek.
-
 	for counter := 0; counter < sample_size; counter++ {
 		sample_line := int(rand.Int63n(int64(count)))
-		fmt.Println(counter, sample_line)
-		outline := fetchLine(f, sample_line)
-		f.Seek(0, 0)
-		_, err := f_out.WriteString(outline + "\n")
-		if err != nil {
-			fmt.Printf("error writing to file: %v\n", err)
-			os.Exit(1)
+		line_index[sample_line] = counter
+	}
+
+	f.Seek(0, 0)
+	s := bufio.NewScanner(f)
+	counter := 0
+	out_count := 0
+
+	for s.Scan() {
+		_, ok := line_index[counter]
+		if ok == true {
+			out_count += 1
+			output := s.Text()
+			_, err := f_out.WriteString(output + "\n")
+			if err != nil {
+				fmt.Printf("error writing to file: %v\n", err)
+				os.Exit(1)
+			}
 		}
+		counter += 1
 	}
-
-}
-
-func NumberToString(n int, sep rune) string {
-
-	s := strconv.Itoa(n)
-
-	startOffset := 0
-	var buff bytes.Buffer
-
-	if n < 0 {
-		startOffset = 1
-		buff.WriteByte('-')
-	}
-
-	l := len(s)
-
-	commaIndex := 3 - ((l - startOffset) % 3)
-
-	if commaIndex == 3 {
-		commaIndex = 0
-	}
-
-	for i := startOffset; i < l; i++ {
-
-		if commaIndex == 3 {
-			buff.WriteRune(sep)
-			commaIndex = 0
-		}
-		commaIndex++
-
-		buff.WriteByte(s[i])
-	}
-
-	return buff.String()
+	fmt.Printf("Wrote %d lines\n", out_count)
 }
 
 func lineCounter(f *os.File) (int, error) {

@@ -45,8 +45,9 @@ func main() {
 	out_count := 0
 
 	for s.Scan() {
+		// Write out the header - TODO: make headers optional
 		_, ok := line_index[counter]
-		if ok == true {
+		if ok == true || counter == 0 {
 			out_count += 1
 			output := s.Text()
 			_, err := f_out.WriteString(output + "\n")

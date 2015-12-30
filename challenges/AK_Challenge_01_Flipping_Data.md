@@ -5,6 +5,7 @@ You've got a data set that's nice and clean, _except_ for the tiny problem of so
 
 ### Sales
 Date | Products | Total
+------- |--------------|-------
 12/01/15 | Apple;Orange;Onion | $12.32
 12/05/15 | Tomato;Grapes;Banana | $15.33
 12/11/15 | Apple | $5.99

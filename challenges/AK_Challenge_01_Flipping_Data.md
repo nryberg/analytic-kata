@@ -31,7 +31,7 @@ Create a table of broken out sales by produce, sales date, and cost.  We don't k
 
 ### Sample output
 Produce|Date|Cost
---------------------------
+----------|---------|-----
 Apple|12/01/15|$0.32
 Orange|12/01/15|$1.22
 Apple|12/11/15|$0.32

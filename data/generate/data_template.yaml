@@ -1,0 +1,29 @@
+fruit:
+  banana:
+    unit:
+      - weight: 2
+      - measure: weight
+    gross:
+      - price: 14.00
+      - weight: 40
+  apple:
+    unit:
+      - weight: 0.33
+      - measure: count
+    gross:
+      - price: 22.00
+      - count: 56
+  cantaloup:
+    unit:
+      - weight: 2.5
+      - measure: count
+    gross:
+      - price: 25.00
+      - count: 12
+  grapes:
+    unit:
+      - weight: 1
+      - measure: weight
+    gross:
+      - price: 46
+      - weight: 18

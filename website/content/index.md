@@ -67,7 +67,7 @@ The major categories are:
 - - - 
 
 ### [Collect](./collect/README.md)
-!(
+
 Getting data from point A to B is a critical and basic to every analytic
 process. 
 

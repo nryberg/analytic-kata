@@ -66,24 +66,17 @@ The major categories are:
 
 - - - 
 
-### [Get](./get)
+### [Get](/moves/get/)
+
 ![Get Image](/images/get_content_small.jpg)
+This is your hand on the doorknob to the future of understanding.  With a twist, new insights will be unlocked.  Also - some doors just won't open without a little trickery.  
 
-Getting data from point A to B is a critical and basic to every analytic
-process. 
-
-#### Text Files 
-
-CSV, the universal language of datasets
-
-#### Databases
-
-Basic connections and SQL to get you off the ground.
 
 - - - 
 
-### Connect
+### [Mix](/moves/mix/)
 
+![Mix Image](/images/mix_content_small.jpg)
 One of these things is not like another.  Or is it?
 
 #### Matched Joins

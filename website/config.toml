@@ -1,3 +1,6 @@
 baseurl = "http://analytic-kata.com/"
 languageCode = "en-us"
 title = "Analytic-Kata"
+[params]
+  description = "A method to teach analysis through action - you learn by movement, develop new ways of thinking and become the master of your own data."
+  mainMenu = ["about"]

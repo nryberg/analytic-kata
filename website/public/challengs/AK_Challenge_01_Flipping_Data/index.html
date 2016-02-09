@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="alternate" href="/index.xml" type="application/rss+xml" title="Analytic-Kata">
+		<link rel="icon" href="http://www.analytic-kata.com//favicon.ico">
+		<title> - Analytic-Kata</title>
+		
+		<link rel="stylesheet" href="http://www.analytic-kata.com//css/highlight.js.min.css">
+		<link rel="stylesheet" href="http://www.analytic-kata.com//css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://www.analytic-kata.com//css/bootstrap-theme.css">
+		<link rel="stylesheet" href="http://www.analytic-kata.com//css/theme.css">
+		<link rel="stylesheet" href="http://www.analytic-kata.com//css/bootie-docs.css">
+	</head>
+
+<body role="document">
+
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="http://www.analytic-kata.com//">Analytic-Kata</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li ><a href="http://www.analytic-kata.com//">Home</a></li>
+			
+				
+				
+					
+					<li ><a href="http://www.analytic-kata.com//about">About</a></li>
+				
+			
+				
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categories<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+						
+							<li><a href="http://www.analytic-kata.com//categories/moves">Moves</a></li>
+						
+						</ul>
+					</li>
+				
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<div class="container">
+
+<div class="row">
+	<div class="col-sm-8 doc-main">
+		<main role="main">
+			<article>
+				<a id="title"></a>
+				<h1 class="doc-entry-title"></h1>
+				<div class="doc-entry-meta">
+					<span><time datetime="0001-01-01">January 01, 0001</time></span>
+				</div>
+				<section>
+					
+
+<p>#Analysis Challenge #1 - Flipping the data for the rows</p>
+
+<h2 id="difficulty-hard:f9c1fe88cca1d4cf9a4775799b54f23d">Difficulty : Hard</h2>
+
+<p>Most tool solutions require dropping the results into arrays, iterating through the arrays and creating output.  Not necessarily complex, but can be challenging from a debugging perspective.</p>
+
+<h2 id="problem:f9c1fe88cca1d4cf9a4775799b54f23d">Problem</h2>
+
+<p>You&rsquo;ve got a data set that&rsquo;s nice and clean, <em>except</em> for the tiny problem of source system summary.  The data is actually a downstream report from two pre-joined tables.  The first is simple - a list of sales including products and total dollar amounts.  The second is simple - a list of the products that could be sold.  The combination is a little evil - the aggregate report only goes to the basket level.  The products included are summarized and concatenated with semicolons (;).  Just to make it fun, some sales only have one item, so no semicolons needed.</p>
+
+<h3 id="data:f9c1fe88cca1d4cf9a4775799b54f23d">Data</h3>
+
+<h4 id="summary-sales:f9c1fe88cca1d4cf9a4775799b54f23d">Summary Sales</h4>
+
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Products</th>
+<th>Total</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>12/01/15</td>
+<td>Apple;Orange;Onion</td>
+<td>$12.32</td>
+</tr>
+
+<tr>
+<td>12/05/15</td>
+<td>Tomato;Grapes;Banana</td>
+<td>$15.33</td>
+</tr>
+
+<tr>
+<td>12/11/15</td>
+<td>Apple</td>
+<td>$5.99</td>
+</tr>
+
+<tr>
+<td>12/16/15</td>
+<td>Onion; Potato</td>
+<td>$44.11</td>
+</tr>
+
+<tr>
+<td>12/20/16</td>
+<td>Broccoli; Watermelon</td>
+<td>$9.32</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="produce:f9c1fe88cca1d4cf9a4775799b54f23d">Produce</h4>
+
+<table>
+<thead>
+<tr>
+<th>Produce</th>
+<th>Cost</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Apple</td>
+<td>$0.32</td>
+</tr>
+
+<tr>
+<td>Orange</td>
+<td>$1.22</td>
+</tr>
+
+<tr>
+<td>Banana</td>
+<td>$0.97</td>
+</tr>
+
+<tr>
+<td>Tomato</td>
+<td>$0.22</td>
+</tr>
+
+<tr>
+<td>Grapes</td>
+<td>$1.99</td>
+</tr>
+
+<tr>
+<td>Onion</td>
+<td>$0.11</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="goal:f9c1fe88cca1d4cf9a4775799b54f23d">Goal</h2>
+
+<p>Create a table of broken out sales by produce, sales date, and cost.  We don&rsquo;t know how much of each total sale the indvidual produce contributes, so we&rsquo;ll leave it alone for now.</p>
+
+<h3 id="sample-output:f9c1fe88cca1d4cf9a4775799b54f23d">Sample output</h3>
+
+<table>
+<thead>
+<tr>
+<th>Produce</th>
+<th>Date</th>
+<th>Cost</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Apple</td>
+<td>12/01/15</td>
+<td>$0.32</td>
+</tr>
+
+<tr>
+<td>Orange</td>
+<td>12/01/15</td>
+<td>$1.22</td>
+</tr>
+
+<tr>
+<td>Apple</td>
+<td>12/11/15</td>
+<td>$0.32</td>
+</tr>
+
+<tr>
+<td>Onion</td>
+<td>12/01/15</td>
+<td>$0.11</td>
+</tr>
+
+<tr>
+<td>Onion</td>
+<td>12/16/15</td>
+<td>$0.11</td>
+</tr>
+</tbody>
+</table>
+
+				</section>
+			</article>
+		</main>
+	</div> 
+
+	
+<div class="col-sm-3 col-sm-offset-1 doc-sidebar">
+	<div class="sidebar-module">
+		<div class="sidebar-toc">
+			<h4>Table of Contents</h4>
+			<ul>
+				<li><strong><a href="#title"></a></strong></li>
+			</ul>
+			<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#difficulty-hard:f9c1fe88cca1d4cf9a4775799b54f23d">Difficulty : Hard</a></li>
+<li><a href="#problem:f9c1fe88cca1d4cf9a4775799b54f23d">Problem</a>
+<ul>
+<li><a href="#data:f9c1fe88cca1d4cf9a4775799b54f23d">Data</a>
+<ul>
+<li><a href="#summary-sales:f9c1fe88cca1d4cf9a4775799b54f23d">Summary Sales</a></li>
+<li><a href="#produce:f9c1fe88cca1d4cf9a4775799b54f23d">Produce</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#goal:f9c1fe88cca1d4cf9a4775799b54f23d">Goal</a>
+<ul>
+<li><a href="#sample-output:f9c1fe88cca1d4cf9a4775799b54f23d">Sample output</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+		</div>
+	</div>
+	<div class="sidebar-module">
+		<h4>Tags</h4>
+		<div class="tag-box">
+		
+			<a class="tag-item" href="http://www.analytic-kata.com//tags/get">get</a>
+		
+			<a class="tag-item" href="http://www.analytic-kata.com//tags/moves">moves</a>
+		
+		</div>
+	</div>
+</div>
+
+</div> 
+
+
+<hr />
+
+<div class="row">
+	<div class="col-sm-8">
+		<p class="doc-footer-em"><a href="#">Back to TOP</a></p>
+	</div>
+</div>
+
+</div> 
+
+<footer class="doc-footer">
+	
+	
+	<p>Powered by <strong><a href="https://github.com/key-amb/hugo-theme-bootie-docs">Bootie Docs</a></strong> - theme for <a href="http://gohugo.io/">Hugo</a> by <a href="https://github.com/key-amb/">key-amb</a>.</p>
+</footer>
+
+
+
+<script src="http://www.analytic-kata.com//js/jquery-1.11.2.min.js"></script>
+<script src="http://www.analytic-kata.com//js/bootstrap.min.js"></script>
+
+<script src="http://www.analytic-kata.com//js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="http://www.analytic-kata.com//js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>

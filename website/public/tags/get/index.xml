@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Get on Analytic-Kata</title>
+    <link>http://www.analytic-kata.com/tags/get/</link>
+    <description>Recent content in Get on Analytic-Kata</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.analytic-kata.com/tags/get/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Moves : Get</title>
+      <link>http://www.analytic-kata.com/moves/get/</link>
+      <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/moves/get/</guid>
+      <description>
+
+&lt;h1 id=&#34;import:a420ef0ee38ccc0037cdae57c0bb7573&#34;&gt;Import&lt;/h1&gt;
+
+&lt;p&gt;Gathering data is the starting point for every analytic.&lt;/p&gt;
+
+&lt;h3 id=&#34;text-files:a420ef0ee38ccc0037cdae57c0bb7573&#34;&gt;Text Files&lt;/h3&gt;
+
+&lt;p&gt;CSV, the universal language of datasets&lt;/p&gt;
+
+&lt;h3 id=&#34;databases:a420ef0ee38ccc0037cdae57c0bb7573&#34;&gt;Databases&lt;/h3&gt;
+
+&lt;p&gt;Basic connections and SQL to get you off the ground.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

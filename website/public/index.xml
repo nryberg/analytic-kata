@@ -6,7 +6,628 @@
     <description>Recent content on Analytic-Kata</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 07 Feb 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.analytic-kata.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Analytic Kata Foundation</title>
+      <link>http://www.analytic-kata.com/Analytic-Kata-Home/</link>
+      <pubDate>Sun, 07 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/Analytic-Kata-Home/</guid>
+      <description>
+
+&lt;h1 id=&#34;analytic-kata:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Analytic Kata&lt;/h1&gt;
+
+&lt;p&gt;The Analtyic Kata are a series of exercises built on the martial arts concept of
+a system of short routines that can be coupled together into a program that a
+student can learn from and demonstrate mastery of the art.  In this case, we&amp;rsquo;re
+kicking bits and bytes, and chopping rows of data, but the idea of continually
+improving is the same.&lt;/p&gt;
+
+&lt;p&gt;While this is hosted in Github for convenience, it&amp;rsquo;s a system that can be ported
+to almost any learning and analytic environment.  Individual dialects (R,
+Python, Tableau, Alteryx, SAS, etc&amp;hellip;) will be constructed for each set of kata.&lt;/p&gt;
+
+&lt;h2 id=&#34;mastery-of-technique:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Mastery of Technique&lt;/h2&gt;
+
+&lt;p&gt;The physical repetition of a kata slightly varies each time.  Hopefully over
+time it comes closer and closer to perfection.  Senior masters will provide
+correction, and the student will build new muscle memory around the techniques.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, the kata will generate a new set of challenges based on the same
+techniques.  Data will be gathered, joined, condensed and shared.  However since
+the practice of the kata will be (typically) solo, this system will provide a
+mechanism to add some variety to the actual data.  This will force the student
+to get the technique correct and know that they&amp;rsquo;re on the mark without simply
+repeating a pattern thoughtlessly.&lt;/p&gt;
+
+&lt;h2 id=&#34;learning-by-teaching:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Learning by Teaching&lt;/h2&gt;
+
+&lt;p&gt;Every black belt, whether in Judo, Aikido or R, has ingrained the technique to a
+point where they literally cannot express in words what they&amp;rsquo;re doing.  It&amp;rsquo;s
+vitally critical to the continued development of the master and the field of
+potential new masters that they train the lower classes on a regular basis.
+Besides ensuring the survival of the technique for future generations, it keeps
+surfacing the content in new and more complete ways in the master&amp;rsquo;s brain.&lt;/p&gt;
+
+&lt;p&gt;These kata are designed to provide a foundation for masters to quickly pass on
+new techniques to novices and take advantage of the virtuous cycle of mastery
+through teaching.&lt;/p&gt;
+
+&lt;h2 id=&#34;your-moves:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Your Moves&lt;/h2&gt;
+
+&lt;p&gt;Most martial arts disciplines have a variety of basic moves using parts of the body in
+combinations.  Analytics has a similar vocabulary of moves that are built
+together into combinations.&lt;/p&gt;
+
+&lt;p&gt;Every set of kata will have at least three levels of difficulty.  The simple
+should be a nice starting point, and the expert levels ideally fiendish.&lt;/p&gt;
+
+&lt;p&gt;The major categories are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Get - gather the data and prep it for analysis&lt;/li&gt;
+&lt;li&gt;Connect - join datasets into a more comprehensive picture&lt;/li&gt;
+&lt;li&gt;Change - apply formulas and clean up data&lt;/li&gt;
+&lt;li&gt;Choose - select the columns you need and filter the rows that are important&lt;/li&gt;
+&lt;li&gt;Compare - group similar things together, understand the deeper visual and statistic patterns&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;get-moves-get:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;http://www.analytic-kata.com/moves/get/&#34;&gt;Get&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.analytic-kata.com/images/get_content_small.jpg&#34; alt=&#34;Get Image&#34; /&gt;
+This is your hand on the doorknob to the future of understanding.  With a twist, new insights will be unlocked.  Also - some doors just won&amp;rsquo;t open without a little trickery.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;mix-moves-mix:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;http://www.analytic-kata.com/moves/mix/&#34;&gt;Mix&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.analytic-kata.com/images/mix_content_small.jpg&#34; alt=&#34;Mix Image&#34; /&gt;
+One of these things is not like another.  Or is it?&lt;/p&gt;
+
+&lt;h4 id=&#34;matched-joins:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Matched Joins&lt;/h4&gt;
+
+&lt;p&gt;The simplest of concepts - a one to one match.  Things get a little more
+complicated with many-to-one and one-to-many, but this is basic relationships.&lt;/p&gt;
+
+&lt;h4 id=&#34;unmatched-joins:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Unmatched Joins&lt;/h4&gt;
+
+&lt;p&gt;You had a great dinner but made a little too much and now it&amp;rsquo;s sitting in the
+fridge.  These are leftovers and can be just as delicious the next day for
+lunch.&lt;/p&gt;
+
+&lt;p&gt;Not every dataset matches every other dataset, and the leftovers can be just as
+interesting or more so than the original.&lt;/p&gt;
+
+&lt;p&gt;Think left/right outer joins.&lt;/p&gt;
+
+&lt;h4 id=&#34;cartesian-joins:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Cartesian Joins&lt;/h4&gt;
+
+&lt;p&gt;Rarely but significantly it makes sense to join every possible match of one
+dataset to every possible match of another dataset.  While this can generate
+massive amounts of data, it can also open up insights otherwise impossible to
+uncover.&lt;/p&gt;
+
+&lt;h4 id=&#34;gather:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Gather&lt;/h4&gt;
+
+&lt;p&gt;This is no different than &amp;ldquo;wipe on, wipe off&amp;rdquo;.  The youngest novice to the
+craggiest 6 degree black belt has to acquire data from somewhere.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;change:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Change&lt;/h3&gt;
+
+&lt;p&gt;Parsing, modification and testing - we have a variety of ways of fixing,
+improving and changing data on a row by row basis and prepping it for the
+analytics to come.&lt;/p&gt;
+
+&lt;h4 id=&#34;parsing:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Parsing&lt;/h4&gt;
+
+&lt;p&gt;Splitting hairs or data is often similarly frustrating.  The hard part is just
+finding the delimiter.&lt;/p&gt;
+
+&lt;h4 id=&#34;formulas:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Formulas&lt;/h4&gt;
+
+&lt;p&gt;Some tools are fantastic with formulas - think Excel, others not so much.  Every
+toolset needs to be able to modify data.&lt;/p&gt;
+
+&lt;h4 id=&#34;testing:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Testing&lt;/h4&gt;
+
+&lt;p&gt;The often neglected science of knowing whether or not you&amp;rsquo;re on the right path
+must be in every analyst&amp;rsquo;s toolbelt.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;choose:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Choose&lt;/h3&gt;
+
+&lt;h4 id=&#34;selection:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Selection&lt;/h4&gt;
+
+&lt;p&gt;Choose your friends and columns wisely, for they will help determine if you will
+successfully finish your analytic on time, under budget and with great results.&lt;/p&gt;
+
+&lt;p&gt;While every dataset can be enhanced with joined data, almost every dataset has
+too much to say. Pare and prune the data to just the columns you need and be
+confident you can always add back what was removed.&lt;/p&gt;
+
+&lt;h4 id=&#34;filtering:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Filtering&lt;/h4&gt;
+
+&lt;p&gt;Inch by inch, row by row, the complement to selection is choosing what to focus
+on.  One billion rows can encompass the world of your analytics, but at its
+heart what really matters is just a few thousand rows of critical information.&lt;/p&gt;
+
+&lt;h4 id=&#34;sampling:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Sampling&lt;/h4&gt;
+
+&lt;p&gt;Judgement, random or stratified, different tools can give you widely different
+results for creating small test populations and statistical projections.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;compare:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Compare&lt;/h3&gt;
+
+&lt;p&gt;Your data is a given, but underneath the covers are patterns of groups and
+statistical insights.&lt;/p&gt;
+
+&lt;h4 id=&#34;groups:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Groups&lt;/h4&gt;
+
+&lt;p&gt;We as humans pigeonhole.  It&amp;rsquo;s our superpower.  We group this batch of items
+together with that attribute and it&amp;rsquo;s how we can even make sense of the larger
+patterns of life.  These groups are typically text or date, but can include
+numeric labels.&lt;/p&gt;
+
+&lt;h4 id=&#34;statistics:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Statistics&lt;/h4&gt;
+
+&lt;p&gt;Numbers themselves tell a story.  Hook them up to an overall understanding of
+your data, and descriptive stats can unearth some amazing information, and most
+analytic toolsets deliver at least rudimentary measures.&lt;/p&gt;
+
+&lt;h4 id=&#34;visual-patterns:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Visual Patterns&lt;/h4&gt;
+
+&lt;p&gt;Simple bar charts and line graphs can bring to life stories that capture the
+imagination of your viewers and change the world.  Or at the very least, avoid
+the dreaded &amp;ldquo;Sea of Numbers&amp;rdquo; problem.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;choice-of-analytic-tools:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Choice of Analytic Tools&lt;/h1&gt;
+
+&lt;p&gt;Within the world of every major martial art form is hundreds of variations.  Two
+Aikido dojos miles apart in the same major metropolitan area will teach differently and
+value different schools of thought.  Both are valid and will provide both
+physical benefit and safety. (Both will also be slightly dismissive of the
+other, but that&amp;rsquo;s human nature)&lt;/p&gt;
+
+&lt;p&gt;How you exercise your kata is dependent on what tools you have at hand.  Perhaps
+you&amp;rsquo;re a corporate SAS or Tableau user, maybe you&amp;rsquo;re a data scientist exercising
+R and Python, and maybe you&amp;rsquo;re an Excel spreadsheet black belt.  Each tool is
+valid and will provide analytic benefit, though they vary dramatically in their
+cost and speed to analysis results.&lt;/p&gt;
+
+&lt;p&gt;With a little adaptation, you should be able to perform almost all of the kata
+within one tool environment.  Remember, limitations will set you free.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Moves : Get</title>
+      <link>http://www.analytic-kata.com/moves/get/</link>
+      <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/moves/get/</guid>
+      <description>
+
+&lt;h1 id=&#34;import:a420ef0ee38ccc0037cdae57c0bb7573&#34;&gt;Import&lt;/h1&gt;
+
+&lt;p&gt;Gathering data is the starting point for every analytic.&lt;/p&gt;
+
+&lt;h3 id=&#34;text-files:a420ef0ee38ccc0037cdae57c0bb7573&#34;&gt;Text Files&lt;/h3&gt;
+
+&lt;p&gt;CSV, the universal language of datasets&lt;/p&gt;
+
+&lt;h3 id=&#34;databases:a420ef0ee38ccc0037cdae57c0bb7573&#34;&gt;Databases&lt;/h3&gt;
+
+&lt;p&gt;Basic connections and SQL to get you off the ground.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.analytic-kata.com/blog/2015_12_30_core_skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/blog/2015_12_30_core_skills/</guid>
+      <description>&lt;p&gt;There is a fundamental gap between simple lists of data - spreadsheets, reports, web pages, and actual understanding of the ebb and flow of information.  While there&amp;rsquo;s certainly oceans of data out there to be sailed by the deep sea vessels of data science, there&amp;rsquo;s a huge amount of un-fished value between the shallows and the unplumbed depths.&lt;/p&gt;
+
+&lt;p&gt;Companies and researchers can extract a gold mine of information out of gigabytes of data - we can dig deeper into the simple, short data we have on our desktops and networks.&lt;/p&gt;
+
+&lt;p&gt;Simply by knowing how to combine two different but related sources of information is the first super power.  Adding another layer of information to what you have on hand provides context, color and depth to what you already know.  It can help prove that your information is complete and accurate.  It can help you identify patterns no one else sees.&lt;/p&gt;
+
+&lt;p&gt;Second, if you can move up or down the scale of information - from large world view groups and categories down to the tiniest grains of sand on the beach of data, you can uncover patterns that will help you decide what&amp;rsquo;s important and pry open the reasons for major trends.  Combine two different categories?  You have the magic of pivot tables.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s endless opportunities to understand sitting right in front of you with the data that you have at hand - being able to pick it up, merge it with other sources, and find the bigger patterns can unlock all sorts of potential.  Best thing?  It&amp;rsquo;s readily available with the tools you have at hand.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.analytic-kata.com/blog/2015_12_30_high_touch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/blog/2015_12_30_high_touch/</guid>
+      <description>&lt;p&gt;12/30/15&lt;/p&gt;
+
+&lt;p&gt;High Touch Analytics&lt;/p&gt;
+
+&lt;p&gt;One of the most intangible yet most important metrics is the ability to handle your data, inspect it and understand how it all fits together.  Really great analytic tools go out of their way to make your tables, rows, columns something you can work with, view and quickly understand.  The very worst sorts of tools (usually the legacy, older generation) expect you to hold a mental or perhaps paper model of the data.  While it&amp;rsquo;s great to get physical, it&amp;rsquo;s infuriating that it should be a requirement.&lt;/p&gt;
+
+&lt;p&gt;Analytics is all about change - moving data into your process, mixing it with other sources, selecting what&amp;rsquo;s important, adding filters, subtracting columns, charting results.  Very rarely what goes in is what comes out.  But if you don&amp;rsquo;t know what it looked like to start with and aren&amp;rsquo;t really sure what&amp;rsquo;s happening in the middle, then the whole process is error prone and probably just annoying.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.analytic-kata.com/blog/2016_01_02_sample_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/blog/2016_01_02_sample_data/</guid>
+      <description>&lt;p&gt;Sample Data Generator&lt;/p&gt;
+
+&lt;p&gt;Ranges within categories
+Plus or minus 25%
+Bananas
+* Price
+* Quantities&lt;/p&gt;
+
+&lt;p&gt;Bikes
+* 3 Locations
+Rentals
+Rates
+Times&lt;/p&gt;
+
+&lt;p&gt;Basketball
+Games won/lost
+Points&lt;/p&gt;
+
+&lt;p&gt;Players&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.analytic-kata.com/blog/2016_01_14_three_words/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/blog/2016_01_14_three_words/</guid>
+      <description>
+
+&lt;h2 id=&#34;three-words-between-you-and-destiny:bb427db55b75e283d19e49be616df03a&#34;&gt;Three words between you and destiny&lt;/h2&gt;
+
+&lt;p&gt;In one of the most highly cited papers in psychology, Princeton psychologist George Miller stated that in general we can handle seven plus or minus two chunks of information &lt;a href=&#34;[https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two&#34;&gt;wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d argue that in the case of analytics, this number is capped at five simply because most analytic operations are complex, and merging them together into a larger statement makes it really hard for the human brain to simply keep up, much less make actual decisions.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day, all analytics drives behavior - either we&amp;rsquo;re stopping, starting or continuing progress on a particular situation, and often the deepest and most suprising wins are found when you are combining multiple sources of data into one stream of information.&lt;/p&gt;
+
+&lt;p&gt;Since we&amp;rsquo;re wired to handle a limited number of concepts, I&amp;rsquo;d put the actual limit of verbs in an analytic sentence at three, and the rest (4 +/- 2) are labels and criteria.&lt;/p&gt;
+
+&lt;p&gt;As an example, my goal is to make sense of bike rental patterns.  I have rental locations, bike types, dates and simple daily volume.  At this point I have four discrete pieces of information to work with, and as soon as you start working through the problem, you hit the seven cap very quickly.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.analytic-kata.com/blog/2016_01_18_jigsaw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/blog/2016_01_18_jigsaw/</guid>
+      <description>
+
+&lt;p&gt;#AK Notes
+&lt;em&gt;01/18/2016&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The chunks and pieces are there to be assembled, like a much scrambled box of jigsaw puzzle parts.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the core parts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nryberg/analytic-kata&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://trello.com/b/H1aUTNxd/analytic-kata&#34;&gt;Trello Plan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;initial-steps:dcc8439fa867ad05cc23bcd957cdef6d&#34;&gt;Initial Steps&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Book the domain name - analytic-kata.com &lt;a href=&#34;https://www.hover.com/&#34;&gt;Hover&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rough out the static site
+
+&lt;ul&gt;
+&lt;li&gt;Simple generation with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Look and feel should be reasonably clean &lt;a href=&#34;http://foundation.zurb.com/&#34;&gt;Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hosting - Amazon S3&lt;/li&gt;
+&lt;li&gt;Simple Graphics  &lt;a href=&#34;https://thenounproject.com/search/?q=analytics&#34;&gt;The Noun Project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;../static/images/get_content.png&#34; alt=&#34;Get Content&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.analytic-kata.com/blog/2016_01_28_naming_is_hard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/blog/2016_01_28_naming_is_hard/</guid>
+      <description>
+
+&lt;h2 id=&#34;naming-your-dog-is-hard:bd0cc8e940197972c217e9dc27ff00ee&#34;&gt;Naming your dog is hard&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;01/28/16&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;But just as critical as what you label data in your analytics.  Labels in analytics come in a couple of flavors:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;In the data&lt;/strong&gt; - prime grouping material!  These are names given to you gratis - you can use it to gather entries together, find patterns, uncover outliers, and quickly jump to conclusions, good or bad.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Of the data&lt;/strong&gt; - column names describe whats listed.  Sometimes they&amp;rsquo;re crystal clear, &amp;ldquo;Customer_Last_Name&amp;rdquo;, and sometimes they&amp;rsquo;re not, &amp;ldquo;CUST_LNM&amp;rdquo;.  The question you have to ask yourself is really how lucky do you feel?  If it&amp;rsquo;s an acronym (CLN) that&amp;rsquo;s tossed around by you, your team, your customers, your clients and possibly your grandfather, then by all means, go with the flow.
+That&amp;rsquo;s a lot to ask of luck and your grandfather.  Have a heart!  Part of fixing data is sometimes just giving it a reasonably graspable, readable and brief name.  Hard but doable.  Shoot for one word instead of two, two instead of three, anymore and you&amp;rsquo;re really talking way too much in a column name.  Remember: it&amp;rsquo;s a handle for your brain to hang on.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Of the data, part 2&lt;/strong&gt; - table names group a measureable condition about something that&amp;rsquo;s important.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Of the data, part 3&lt;/strong&gt; - database names.  It&amp;rsquo;s the whole enchilada here.  Sour cream, filling, lettuce, cheese, the works.  Oddly, it&amp;rsquo;s probably the one you refer to the least and while it sets the tone for the party, it&amp;rsquo;s pretty permanent.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;what-s-in-a-good-name:bd0cc8e940197972c217e9dc27ff00ee&#34;&gt;What&amp;rsquo;s in a good name?&lt;/h3&gt;
+
+&lt;p&gt;Brevity balanced with completeness.  What is the sound of one bit clapping?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.analytic-kata.com/blog/2016_01_30_Transiting_the_Alps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/blog/2016_01_30_Transiting_the_Alps/</guid>
+      <description>
+
+&lt;h3 id=&#34;transiting-the-alps-with-a-bag-of-chips-a-diet-coke-and-a-little-moxie:e0e38ca4165de622b41cf4d9a9916ef9&#34;&gt;Transiting the Alps with a bag of chips, a diet coke and a little moxie&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;01/30/16&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Every analysis has a little Mount Everest inside.  A challenge that sounds insurmountable, perhaps even a little deadly.  But remember, the view is amazing.  And I will be your &lt;a href=&#34;https://en.wikipedia.org/wiki/Tenzing_Norgay&#34;&gt;Tenzeng Norgay&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The goals can be lofty - understand why we&amp;rsquo;re only selling our product to 10 year old girls on the west side of Phoenix, AZ.  Find out how we can connect with Mom-n-Pop convenience stores in the Bronx.&lt;/p&gt;
+
+&lt;p&gt;Sometimes, they&amp;rsquo;re a little mundane - total up the points in a game and do an average of all the games - I want to know how kick-ass my little league team really is.&lt;/p&gt;
+
+&lt;p&gt;In every case, the steps are pretty simple and repeatable.  There just may be a few more to get over that digital mountain and cross the icy data crevasse.  But I guarantee, you&amp;rsquo;ll be tickled with the results.&lt;/p&gt;
+
+&lt;p&gt;More often than not, you&amp;rsquo;ll end up at a goal with conclusions and surprises you simply couldn&amp;rsquo;t have imagined without digging deep into the data.  You&amp;rsquo;ll come away with an appreciation for sunsets on the mountain range of information that will change how you think about whatever it is that you&amp;rsquo;re trying to understand, do better and make the world a better place.&lt;/p&gt;
+
+&lt;p&gt;So - can you cross the Alps with a bag of chips, a can of diet coke and a little moxie?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Yes&lt;/strong&gt;. The moxie will have to be unbelievable and you&amp;rsquo;ll have to be able to sleep &lt;em&gt;in&lt;/em&gt; the bag of chips, but with this road map in hand, you&amp;rsquo;ll have the legs of giants and will cross the finish line with the the results firmly clenched in your teeth.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;After&lt;/em&gt; you drink the diet coke.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.analytic-kata.com/blog/2016_02_02_It_has_to_be_personal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/blog/2016_02_02_It_has_to_be_personal/</guid>
+      <description>
+
+&lt;p&gt;My Theory of Targeted Learning
+&lt;em&gt;02/02/16&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;it-has-to-be-personal:8b66b94c2153d5a649758ebb7feb4fa6&#34;&gt;It has to be personal&lt;/h3&gt;
+
+&lt;p&gt;Whatever you&amp;rsquo;re up to, at the end of the day it has to connect in some way shape or form with whatever it is that motivates you out of bed in the morning.  If you&amp;rsquo;re a banker, and you&amp;rsquo;re learning profit margins on fruit, you&amp;rsquo;d better be a commercial banker who deals primarily with the grocer industry, or perhaps farmers.  If you&amp;rsquo;re a grocer, and you&amp;rsquo;re learning interest rate calculations, then it only makes sense that these would be for loans for new stores or delivery trucks.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re that banker who deals with home mortgages, learning about fruit sales not only is counter productive, it gets in the way of the underlying goal - learn how to put numbers and facts together in new and interesting ways.&lt;/p&gt;
+
+&lt;p&gt;Your brain has to be unlocked to the potential in the data crossing your desk every day, and the key has to be shaped to that data.  Fortunately, at the heart of analytics, every key and lock combination basically works the same.  We&amp;rsquo;re simply need to add different colors, maybe metals, and complexity.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.analytic-kata.com/blog/2016_02_05_Overall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/blog/2016_02_05_Overall/</guid>
+      <description>
+
+&lt;h2 id=&#34;analytic-kata:53d4673ac6225077647e21600d944aae&#34;&gt;Analytic Kata&lt;/h2&gt;
+
+&lt;h3 id=&#34;tools:53d4673ac6225077647e21600d944aae&#34;&gt;Tools&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;../static/images/group_small.jpg&#34; alt=&#34;Group Content&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;techniques:53d4673ac6225077647e21600d944aae&#34;&gt;Techniques&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;../static/images/give_small.jpg&#34; alt=&#34;Give Content&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;training:53d4673ac6225077647e21600d944aae&#34;&gt;Training&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;../static/images/get_content_small.jpg&#34; alt=&#34;get Content&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.analytic-kata.com/challengs/AK_Challenge_01_Flipping_Data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/challengs/AK_Challenge_01_Flipping_Data/</guid>
+      <description>
+
+&lt;p&gt;#Analysis Challenge #1 - Flipping the data for the rows&lt;/p&gt;
+
+&lt;h2 id=&#34;difficulty-hard:f9c1fe88cca1d4cf9a4775799b54f23d&#34;&gt;Difficulty : Hard&lt;/h2&gt;
+
+&lt;p&gt;Most tool solutions require dropping the results into arrays, iterating through the arrays and creating output.  Not necessarily complex, but can be challenging from a debugging perspective.&lt;/p&gt;
+
+&lt;h2 id=&#34;problem:f9c1fe88cca1d4cf9a4775799b54f23d&#34;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;You&amp;rsquo;ve got a data set that&amp;rsquo;s nice and clean, &lt;em&gt;except&lt;/em&gt; for the tiny problem of source system summary.  The data is actually a downstream report from two pre-joined tables.  The first is simple - a list of sales including products and total dollar amounts.  The second is simple - a list of the products that could be sold.  The combination is a little evil - the aggregate report only goes to the basket level.  The products included are summarized and concatenated with semicolons (;).  Just to make it fun, some sales only have one item, so no semicolons needed.&lt;/p&gt;
+
+&lt;h3 id=&#34;data:f9c1fe88cca1d4cf9a4775799b54f23d&#34;&gt;Data&lt;/h3&gt;
+
+&lt;h4 id=&#34;summary-sales:f9c1fe88cca1d4cf9a4775799b54f23d&#34;&gt;Summary Sales&lt;/h4&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Products&lt;/th&gt;
+&lt;th&gt;Total&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;12/01/15&lt;/td&gt;
+&lt;td&gt;Apple;Orange;Onion&lt;/td&gt;
+&lt;td&gt;$12.32&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;12/05/15&lt;/td&gt;
+&lt;td&gt;Tomato;Grapes;Banana&lt;/td&gt;
+&lt;td&gt;$15.33&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;12/11/15&lt;/td&gt;
+&lt;td&gt;Apple&lt;/td&gt;
+&lt;td&gt;$5.99&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;12/16/15&lt;/td&gt;
+&lt;td&gt;Onion; Potato&lt;/td&gt;
+&lt;td&gt;$44.11&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;12/20/16&lt;/td&gt;
+&lt;td&gt;Broccoli; Watermelon&lt;/td&gt;
+&lt;td&gt;$9.32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;produce:f9c1fe88cca1d4cf9a4775799b54f23d&#34;&gt;Produce&lt;/h4&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Produce&lt;/th&gt;
+&lt;th&gt;Cost&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Apple&lt;/td&gt;
+&lt;td&gt;$0.32&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Orange&lt;/td&gt;
+&lt;td&gt;$1.22&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Banana&lt;/td&gt;
+&lt;td&gt;$0.97&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Tomato&lt;/td&gt;
+&lt;td&gt;$0.22&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Grapes&lt;/td&gt;
+&lt;td&gt;$1.99&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Onion&lt;/td&gt;
+&lt;td&gt;$0.11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;goal:f9c1fe88cca1d4cf9a4775799b54f23d&#34;&gt;Goal&lt;/h2&gt;
+
+&lt;p&gt;Create a table of broken out sales by produce, sales date, and cost.  We don&amp;rsquo;t know how much of each total sale the indvidual produce contributes, so we&amp;rsquo;ll leave it alone for now.&lt;/p&gt;
+
+&lt;h3 id=&#34;sample-output:f9c1fe88cca1d4cf9a4775799b54f23d&#34;&gt;Sample output&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Produce&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Cost&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Apple&lt;/td&gt;
+&lt;td&gt;12/01/15&lt;/td&gt;
+&lt;td&gt;$0.32&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Orange&lt;/td&gt;
+&lt;td&gt;12/01/15&lt;/td&gt;
+&lt;td&gt;$1.22&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Apple&lt;/td&gt;
+&lt;td&gt;12/11/15&lt;/td&gt;
+&lt;td&gt;$0.32&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Onion&lt;/td&gt;
+&lt;td&gt;12/01/15&lt;/td&gt;
+&lt;td&gt;$0.11&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Onion&lt;/td&gt;
+&lt;td&gt;12/16/15&lt;/td&gt;
+&lt;td&gt;$0.11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.analytic-kata.com/challengs/Challenge_03_Level_of_Detail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.analytic-kata.com/challengs/Challenge_03_Level_of_Detail/</guid>
+      <description>&lt;p&gt;Challenge #3&lt;/p&gt;
+
+&lt;p&gt;Perform level of detail calculations on both up and down the chain of aggregation.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

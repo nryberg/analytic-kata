@@ -3,7 +3,62 @@
   
   <url>
     <loc>http://www.analytic-kata.com/</loc>
+    <lastmod>2016-02-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.analytic-kata.com/Analytic-Kata-Home/</loc>
+    <lastmod>2016-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.analytic-kata.com/moves/get/</loc>
+    <lastmod>2016-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.analytic-kata.com/blog/2015_12_30_core_skills/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.analytic-kata.com/blog/2015_12_30_high_touch/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.analytic-kata.com/blog/2016_01_02_sample_data/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.analytic-kata.com/blog/2016_01_14_three_words/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.analytic-kata.com/blog/2016_01_18_jigsaw/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.analytic-kata.com/blog/2016_01_28_naming_is_hard/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.analytic-kata.com/blog/2016_01_30_Transiting_the_Alps/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.analytic-kata.com/blog/2016_02_02_It_has_to_be_personal/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.analytic-kata.com/blog/2016_02_05_Overall/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.analytic-kata.com/challengs/AK_Challenge_01_Flipping_Data/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.analytic-kata.com/challengs/Challenge_03_Level_of_Detail/</loc>
   </url>
   
 </urlset>

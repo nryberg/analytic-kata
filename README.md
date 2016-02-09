@@ -66,8 +66,8 @@ The major categories are:
 
 - - - 
 
-### [Collect](./collect/README.md)
-!(
+### [Get](./collect/README.md)
+![Get Image](/images/get_content_small.jpg]
 Getting data from point A to B is a critical and basic to every analytic
 process. 
 

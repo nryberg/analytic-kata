@@ -58,7 +58,7 @@ should be a nice starting point, and the expert levels ideally fiendish.
 
 The major categories are:
 
-* Collect - gather the data and prep it for analysis
+* Get - gather the data and prep it for analysis
 * Connect - join datasets into a more comprehensive picture
 * Change - apply formulas and clean up data
 * Choose - select the columns you need and filter the rows that are important
@@ -66,7 +66,8 @@ The major categories are:
 
 - - - 
 
-### [Collect](./collect/README.md)
+### [Get](./get)
+![Get Image](/images/get_content_small.jpg)
 
 Getting data from point A to B is a critical and basic to every analytic
 process. 

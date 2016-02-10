@@ -1,9 +1,12 @@
 +++
-title = "About the Analytic Kata"
+title = "Analytic Kata Foundation"
 description = "Analytic Kata is a series of structured exercises that will get you up to speed in the language _and_ data of your environment"
 date = "2016-02-07"
-slug = "about"
+slug = "Analytic-Kata-Home"
 +++
+
+Analytic Kata
+=============
 
 The Analtyic Kata are a series of exercises built on the martial arts concept of
 a system of short routines that can be coupled together into a program that a

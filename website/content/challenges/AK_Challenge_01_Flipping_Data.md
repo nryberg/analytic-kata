@@ -1,4 +1,14 @@
-#Analysis Challenge #1 - Flipping the data for the rows
++++
+title = "Challenge #1 - multiple records on one line"
+description = "In an ideal world - your data would be perfectly distributed without duplication.  This is the real world - it's time for real challenges."
+tags = [ "data", "exercises", "frustration"]
+date = "2015-12-01"
+categories = [
+  "Challenge",
+  "Difficult"
+]
+slug = "challenge-number-01"
++++
 
 ## Difficulty : Hard
 Most tool solutions require dropping the results into arrays, iterating through the arrays and creating output.  Not necessarily complex, but can be challenging from a debugging perspective.
@@ -8,6 +18,7 @@ You've got a data set that's nice and clean, _except_ for the tiny problem of so
 
 ### Data
 #### Summary Sales
+
 Date | Products | Total
 ------- |--------------|-------
 12/01/15 | Apple;Orange;Onion | $12.32

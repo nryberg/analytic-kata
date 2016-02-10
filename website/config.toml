@@ -1,6 +1,7 @@
-baseurl = "http://analytic-kata.com/"
+baseurl = "http://wwww.analytic-kata.com"
 languageCode = "en-us"
 title = "Analytic-Kata"
+theme = "bootie-docs" 
 [params]
-  description = "A method to teach analysis through action - you learn by movement, develop new ways of thinking and become the master of your own data."
-  mainMenu = ["about"]
+  description = "Learn analysis through action - you learn by movement, develop new ways of thinking and become the master of your own data."
+  mainMenu = ["about", "data", "challenges", "tools"]

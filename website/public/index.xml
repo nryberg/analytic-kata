@@ -2,19 +2,218 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Analytic-Kata</title>
-    <link>http://www.analytic-kata.com/</link>
+    <link>http://wwww.analytic-kata.com/</link>
     <description>Recent content on Analytic-Kata</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Feb 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.analytic-kata.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://wwww.analytic-kata.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About the Analytic Kata</title>
+      <link>http://wwww.analytic-kata.com/about/</link>
+      <pubDate>Sun, 07 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://wwww.analytic-kata.com/about/</guid>
+      <description>
+
+&lt;p&gt;The Analtyic Kata are a series of exercises built on the martial arts concept of
+a system of short routines that can be coupled together into a program that a
+student can learn from and demonstrate mastery of the art.  In this case, we&amp;rsquo;re
+kicking bits and bytes, and chopping rows of data, but the idea of continually
+improving is the same.&lt;/p&gt;
+
+&lt;p&gt;While this is hosted in Github for convenience, it&amp;rsquo;s a system that can be ported
+to almost any learning and analytic environment.  Individual dialects (R,
+Python, Tableau, Alteryx, SAS, etc&amp;hellip;) will be constructed for each set of kata.&lt;/p&gt;
+
+&lt;h2 id=&#34;mastery-of-technique:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Mastery of Technique&lt;/h2&gt;
+
+&lt;p&gt;The physical repetition of a kata slightly varies each time.  Hopefully over
+time it comes closer and closer to perfection.  Senior masters will provide
+correction, and the student will build new muscle memory around the techniques.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, the kata will generate a new set of challenges based on the same
+techniques.  Data will be gathered, joined, condensed and shared.  However since
+the practice of the kata will be (typically) solo, this system will provide a
+mechanism to add some variety to the actual data.  This will force the student
+to get the technique correct and know that they&amp;rsquo;re on the mark without simply
+repeating a pattern thoughtlessly.&lt;/p&gt;
+
+&lt;h2 id=&#34;learning-by-teaching:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Learning by Teaching&lt;/h2&gt;
+
+&lt;p&gt;Every black belt, whether in Judo, Aikido or R, has ingrained the technique to a
+point where they literally cannot express in words what they&amp;rsquo;re doing.  It&amp;rsquo;s
+vitally critical to the continued development of the master and the field of
+potential new masters that they train the lower classes on a regular basis.
+Besides ensuring the survival of the technique for future generations, it keeps
+surfacing the content in new and more complete ways in the master&amp;rsquo;s brain.&lt;/p&gt;
+
+&lt;p&gt;These kata are designed to provide a foundation for masters to quickly pass on
+new techniques to novices and take advantage of the virtuous cycle of mastery
+through teaching.&lt;/p&gt;
+
+&lt;h2 id=&#34;your-moves:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Your Moves&lt;/h2&gt;
+
+&lt;p&gt;Most martial arts disciplines have a variety of basic moves using parts of the body in
+combinations.  Analytics has a similar vocabulary of moves that are built
+together into combinations.&lt;/p&gt;
+
+&lt;p&gt;Every set of kata will have at least three levels of difficulty.  The simple
+should be a nice starting point, and the expert levels ideally fiendish.&lt;/p&gt;
+
+&lt;p&gt;The major categories are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Get - gather the data and prep it for analysis&lt;/li&gt;
+&lt;li&gt;Connect - join datasets into a more comprehensive picture&lt;/li&gt;
+&lt;li&gt;Change - apply formulas and clean up data&lt;/li&gt;
+&lt;li&gt;Choose - select the columns you need and filter the rows that are important&lt;/li&gt;
+&lt;li&gt;Compare - group similar things together, understand the deeper visual and statistic patterns&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;get-moves-get:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;&lt;a href=&#34;http://wwww.analytic-kata.com/moves/get/&#34;&gt;Get&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wwww.analytic-kata.com/images/get_content_small.jpg&#34; alt=&#34;Get Image&#34; /&gt;
+This is your hand on the doorknob to the future of understanding.  With a twist, new insights will be unlocked.  Also - some doors just won&amp;rsquo;t open without a little trickery.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;mix-moves-mix:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;&lt;a href=&#34;http://wwww.analytic-kata.com/moves/mix/&#34;&gt;Mix&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wwww.analytic-kata.com/images/mix_content_small.jpg&#34; alt=&#34;Mix Image&#34; /&gt;
+One of these things is not like another.  Or is it?&lt;/p&gt;
+
+&lt;h4 id=&#34;matched-joins:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Matched Joins&lt;/h4&gt;
+
+&lt;p&gt;The simplest of concepts - a one to one match.  Things get a little more
+complicated with many-to-one and one-to-many, but this is basic relationships.&lt;/p&gt;
+
+&lt;h4 id=&#34;unmatched-joins:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Unmatched Joins&lt;/h4&gt;
+
+&lt;p&gt;You had a great dinner but made a little too much and now it&amp;rsquo;s sitting in the
+fridge.  These are leftovers and can be just as delicious the next day for
+lunch.&lt;/p&gt;
+
+&lt;p&gt;Not every dataset matches every other dataset, and the leftovers can be just as
+interesting or more so than the original.&lt;/p&gt;
+
+&lt;p&gt;Think left/right outer joins.&lt;/p&gt;
+
+&lt;h4 id=&#34;cartesian-joins:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Cartesian Joins&lt;/h4&gt;
+
+&lt;p&gt;Rarely but significantly it makes sense to join every possible match of one
+dataset to every possible match of another dataset.  While this can generate
+massive amounts of data, it can also open up insights otherwise impossible to
+uncover.&lt;/p&gt;
+
+&lt;h4 id=&#34;gather:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Gather&lt;/h4&gt;
+
+&lt;p&gt;This is no different than &amp;ldquo;wipe on, wipe off&amp;rdquo;.  The youngest novice to the
+craggiest 6 degree black belt has to acquire data from somewhere.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;change:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Change&lt;/h3&gt;
+
+&lt;p&gt;Parsing, modification and testing - we have a variety of ways of fixing,
+improving and changing data on a row by row basis and prepping it for the
+analytics to come.&lt;/p&gt;
+
+&lt;h4 id=&#34;parsing:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Parsing&lt;/h4&gt;
+
+&lt;p&gt;Splitting hairs or data is often similarly frustrating.  The hard part is just
+finding the delimiter.&lt;/p&gt;
+
+&lt;h4 id=&#34;formulas:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Formulas&lt;/h4&gt;
+
+&lt;p&gt;Some tools are fantastic with formulas - think Excel, others not so much.  Every
+toolset needs to be able to modify data.&lt;/p&gt;
+
+&lt;h4 id=&#34;testing:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Testing&lt;/h4&gt;
+
+&lt;p&gt;The often neglected science of knowing whether or not you&amp;rsquo;re on the right path
+must be in every analyst&amp;rsquo;s toolbelt.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;choose:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Choose&lt;/h3&gt;
+
+&lt;h4 id=&#34;selection:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Selection&lt;/h4&gt;
+
+&lt;p&gt;Choose your friends and columns wisely, for they will help determine if you will
+successfully finish your analytic on time, under budget and with great results.&lt;/p&gt;
+
+&lt;p&gt;While every dataset can be enhanced with joined data, almost every dataset has
+too much to say. Pare and prune the data to just the columns you need and be
+confident you can always add back what was removed.&lt;/p&gt;
+
+&lt;h4 id=&#34;filtering:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Filtering&lt;/h4&gt;
+
+&lt;p&gt;Inch by inch, row by row, the complement to selection is choosing what to focus
+on.  One billion rows can encompass the world of your analytics, but at its
+heart what really matters is just a few thousand rows of critical information.&lt;/p&gt;
+
+&lt;h4 id=&#34;sampling:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Sampling&lt;/h4&gt;
+
+&lt;p&gt;Judgement, random or stratified, different tools can give you widely different
+results for creating small test populations and statistical projections.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;compare:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Compare&lt;/h3&gt;
+
+&lt;p&gt;Your data is a given, but underneath the covers are patterns of groups and
+statistical insights.&lt;/p&gt;
+
+&lt;h4 id=&#34;groups:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Groups&lt;/h4&gt;
+
+&lt;p&gt;We as humans pigeonhole.  It&amp;rsquo;s our superpower.  We group this batch of items
+together with that attribute and it&amp;rsquo;s how we can even make sense of the larger
+patterns of life.  These groups are typically text or date, but can include
+numeric labels.&lt;/p&gt;
+
+&lt;h4 id=&#34;statistics:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Statistics&lt;/h4&gt;
+
+&lt;p&gt;Numbers themselves tell a story.  Hook them up to an overall understanding of
+your data, and descriptive stats can unearth some amazing information, and most
+analytic toolsets deliver at least rudimentary measures.&lt;/p&gt;
+
+&lt;h4 id=&#34;visual-patterns:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Visual Patterns&lt;/h4&gt;
+
+&lt;p&gt;Simple bar charts and line graphs can bring to life stories that capture the
+imagination of your viewers and change the world.  Or at the very least, avoid
+the dreaded &amp;ldquo;Sea of Numbers&amp;rdquo; problem.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;choice-of-analytic-tools:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Choice of Analytic Tools&lt;/h1&gt;
+
+&lt;p&gt;Within the world of every major martial art form is hundreds of variations.  Two
+Aikido dojos miles apart in the same major metropolitan area will teach differently and
+value different schools of thought.  Both are valid and will provide both
+physical benefit and safety. (Both will also be slightly dismissive of the
+other, but that&amp;rsquo;s human nature)&lt;/p&gt;
+
+&lt;p&gt;How you exercise your kata is dependent on what tools you have at hand.  Perhaps
+you&amp;rsquo;re a corporate SAS or Tableau user, maybe you&amp;rsquo;re a data scientist exercising
+R and Python, and maybe you&amp;rsquo;re an Excel spreadsheet black belt.  Each tool is
+valid and will provide analytic benefit, though they vary dramatically in their
+cost and speed to analysis results.&lt;/p&gt;
+
+&lt;p&gt;With a little adaptation, you should be able to perform almost all of the kata
+within one tool environment.  Remember, limitations will set you free.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Analytic Kata Foundation</title>
-      <link>http://www.analytic-kata.com/Analytic-Kata-Home/</link>
+      <link>http://wwww.analytic-kata.com/data/Analytic-Kata-Home/</link>
       <pubDate>Sun, 07 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.analytic-kata.com/Analytic-Kata-Home/</guid>
+      <guid>http://wwww.analytic-kata.com/data/Analytic-Kata-Home/</guid>
       <description>
 
 &lt;h1 id=&#34;analytic-kata:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Analytic Kata&lt;/h1&gt;
@@ -76,16 +275,217 @@ should be a nice starting point, and the expert levels ideally fiendish.&lt;/p&g
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;get-moves-get:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;http://www.analytic-kata.com/moves/get/&#34;&gt;Get&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;get-moves-get:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;http://wwww.analytic-kata.com/moves/get/&#34;&gt;Get&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.analytic-kata.com/images/get_content_small.jpg&#34; alt=&#34;Get Image&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://wwww.analytic-kata.com/images/get_content_small.jpg&#34; alt=&#34;Get Image&#34; /&gt;
 This is your hand on the doorknob to the future of understanding.  With a twist, new insights will be unlocked.  Also - some doors just won&amp;rsquo;t open without a little trickery.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;mix-moves-mix:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;http://www.analytic-kata.com/moves/mix/&#34;&gt;Mix&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;mix-moves-mix:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;http://wwww.analytic-kata.com/moves/mix/&#34;&gt;Mix&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.analytic-kata.com/images/mix_content_small.jpg&#34; alt=&#34;Mix Image&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://wwww.analytic-kata.com/images/mix_content_small.jpg&#34; alt=&#34;Mix Image&#34; /&gt;
+One of these things is not like another.  Or is it?&lt;/p&gt;
+
+&lt;h4 id=&#34;matched-joins:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Matched Joins&lt;/h4&gt;
+
+&lt;p&gt;The simplest of concepts - a one to one match.  Things get a little more
+complicated with many-to-one and one-to-many, but this is basic relationships.&lt;/p&gt;
+
+&lt;h4 id=&#34;unmatched-joins:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Unmatched Joins&lt;/h4&gt;
+
+&lt;p&gt;You had a great dinner but made a little too much and now it&amp;rsquo;s sitting in the
+fridge.  These are leftovers and can be just as delicious the next day for
+lunch.&lt;/p&gt;
+
+&lt;p&gt;Not every dataset matches every other dataset, and the leftovers can be just as
+interesting or more so than the original.&lt;/p&gt;
+
+&lt;p&gt;Think left/right outer joins.&lt;/p&gt;
+
+&lt;h4 id=&#34;cartesian-joins:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Cartesian Joins&lt;/h4&gt;
+
+&lt;p&gt;Rarely but significantly it makes sense to join every possible match of one
+dataset to every possible match of another dataset.  While this can generate
+massive amounts of data, it can also open up insights otherwise impossible to
+uncover.&lt;/p&gt;
+
+&lt;h4 id=&#34;gather:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Gather&lt;/h4&gt;
+
+&lt;p&gt;This is no different than &amp;ldquo;wipe on, wipe off&amp;rdquo;.  The youngest novice to the
+craggiest 6 degree black belt has to acquire data from somewhere.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;change:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Change&lt;/h3&gt;
+
+&lt;p&gt;Parsing, modification and testing - we have a variety of ways of fixing,
+improving and changing data on a row by row basis and prepping it for the
+analytics to come.&lt;/p&gt;
+
+&lt;h4 id=&#34;parsing:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Parsing&lt;/h4&gt;
+
+&lt;p&gt;Splitting hairs or data is often similarly frustrating.  The hard part is just
+finding the delimiter.&lt;/p&gt;
+
+&lt;h4 id=&#34;formulas:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Formulas&lt;/h4&gt;
+
+&lt;p&gt;Some tools are fantastic with formulas - think Excel, others not so much.  Every
+toolset needs to be able to modify data.&lt;/p&gt;
+
+&lt;h4 id=&#34;testing:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Testing&lt;/h4&gt;
+
+&lt;p&gt;The often neglected science of knowing whether or not you&amp;rsquo;re on the right path
+must be in every analyst&amp;rsquo;s toolbelt.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;choose:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Choose&lt;/h3&gt;
+
+&lt;h4 id=&#34;selection:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Selection&lt;/h4&gt;
+
+&lt;p&gt;Choose your friends and columns wisely, for they will help determine if you will
+successfully finish your analytic on time, under budget and with great results.&lt;/p&gt;
+
+&lt;p&gt;While every dataset can be enhanced with joined data, almost every dataset has
+too much to say. Pare and prune the data to just the columns you need and be
+confident you can always add back what was removed.&lt;/p&gt;
+
+&lt;h4 id=&#34;filtering:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Filtering&lt;/h4&gt;
+
+&lt;p&gt;Inch by inch, row by row, the complement to selection is choosing what to focus
+on.  One billion rows can encompass the world of your analytics, but at its
+heart what really matters is just a few thousand rows of critical information.&lt;/p&gt;
+
+&lt;h4 id=&#34;sampling:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Sampling&lt;/h4&gt;
+
+&lt;p&gt;Judgement, random or stratified, different tools can give you widely different
+results for creating small test populations and statistical projections.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;compare:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Compare&lt;/h3&gt;
+
+&lt;p&gt;Your data is a given, but underneath the covers are patterns of groups and
+statistical insights.&lt;/p&gt;
+
+&lt;h4 id=&#34;groups:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Groups&lt;/h4&gt;
+
+&lt;p&gt;We as humans pigeonhole.  It&amp;rsquo;s our superpower.  We group this batch of items
+together with that attribute and it&amp;rsquo;s how we can even make sense of the larger
+patterns of life.  These groups are typically text or date, but can include
+numeric labels.&lt;/p&gt;
+
+&lt;h4 id=&#34;statistics:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Statistics&lt;/h4&gt;
+
+&lt;p&gt;Numbers themselves tell a story.  Hook them up to an overall understanding of
+your data, and descriptive stats can unearth some amazing information, and most
+analytic toolsets deliver at least rudimentary measures.&lt;/p&gt;
+
+&lt;h4 id=&#34;visual-patterns:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Visual Patterns&lt;/h4&gt;
+
+&lt;p&gt;Simple bar charts and line graphs can bring to life stories that capture the
+imagination of your viewers and change the world.  Or at the very least, avoid
+the dreaded &amp;ldquo;Sea of Numbers&amp;rdquo; problem.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;choice-of-analytic-tools:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Choice of Analytic Tools&lt;/h1&gt;
+
+&lt;p&gt;Within the world of every major martial art form is hundreds of variations.  Two
+Aikido dojos miles apart in the same major metropolitan area will teach differently and
+value different schools of thought.  Both are valid and will provide both
+physical benefit and safety. (Both will also be slightly dismissive of the
+other, but that&amp;rsquo;s human nature)&lt;/p&gt;
+
+&lt;p&gt;How you exercise your kata is dependent on what tools you have at hand.  Perhaps
+you&amp;rsquo;re a corporate SAS or Tableau user, maybe you&amp;rsquo;re a data scientist exercising
+R and Python, and maybe you&amp;rsquo;re an Excel spreadsheet black belt.  Each tool is
+valid and will provide analytic benefit, though they vary dramatically in their
+cost and speed to analysis results.&lt;/p&gt;
+
+&lt;p&gt;With a little adaptation, you should be able to perform almost all of the kata
+within one tool environment.  Remember, limitations will set you free.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analytic Kata Foundation</title>
+      <link>http://wwww.analytic-kata.com/Analytic-Kata-Home/</link>
+      <pubDate>Sun, 07 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://wwww.analytic-kata.com/Analytic-Kata-Home/</guid>
+      <description>
+
+&lt;h1 id=&#34;analytic-kata:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Analytic Kata&lt;/h1&gt;
+
+&lt;p&gt;The Analtyic Kata are a series of exercises built on the martial arts concept of
+a system of short routines that can be coupled together into a program that a
+student can learn from and demonstrate mastery of the art.  In this case, we&amp;rsquo;re
+kicking bits and bytes, and chopping rows of data, but the idea of continually
+improving is the same.&lt;/p&gt;
+
+&lt;p&gt;While this is hosted in Github for convenience, it&amp;rsquo;s a system that can be ported
+to almost any learning and analytic environment.  Individual dialects (R,
+Python, Tableau, Alteryx, SAS, etc&amp;hellip;) will be constructed for each set of kata.&lt;/p&gt;
+
+&lt;h2 id=&#34;mastery-of-technique:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Mastery of Technique&lt;/h2&gt;
+
+&lt;p&gt;The physical repetition of a kata slightly varies each time.  Hopefully over
+time it comes closer and closer to perfection.  Senior masters will provide
+correction, and the student will build new muscle memory around the techniques.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, the kata will generate a new set of challenges based on the same
+techniques.  Data will be gathered, joined, condensed and shared.  However since
+the practice of the kata will be (typically) solo, this system will provide a
+mechanism to add some variety to the actual data.  This will force the student
+to get the technique correct and know that they&amp;rsquo;re on the mark without simply
+repeating a pattern thoughtlessly.&lt;/p&gt;
+
+&lt;h2 id=&#34;learning-by-teaching:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Learning by Teaching&lt;/h2&gt;
+
+&lt;p&gt;Every black belt, whether in Judo, Aikido or R, has ingrained the technique to a
+point where they literally cannot express in words what they&amp;rsquo;re doing.  It&amp;rsquo;s
+vitally critical to the continued development of the master and the field of
+potential new masters that they train the lower classes on a regular basis.
+Besides ensuring the survival of the technique for future generations, it keeps
+surfacing the content in new and more complete ways in the master&amp;rsquo;s brain.&lt;/p&gt;
+
+&lt;p&gt;These kata are designed to provide a foundation for masters to quickly pass on
+new techniques to novices and take advantage of the virtuous cycle of mastery
+through teaching.&lt;/p&gt;
+
+&lt;h2 id=&#34;your-moves:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Your Moves&lt;/h2&gt;
+
+&lt;p&gt;Most martial arts disciplines have a variety of basic moves using parts of the body in
+combinations.  Analytics has a similar vocabulary of moves that are built
+together into combinations.&lt;/p&gt;
+
+&lt;p&gt;Every set of kata will have at least three levels of difficulty.  The simple
+should be a nice starting point, and the expert levels ideally fiendish.&lt;/p&gt;
+
+&lt;p&gt;The major categories are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Get - gather the data and prep it for analysis&lt;/li&gt;
+&lt;li&gt;Connect - join datasets into a more comprehensive picture&lt;/li&gt;
+&lt;li&gt;Change - apply formulas and clean up data&lt;/li&gt;
+&lt;li&gt;Choose - select the columns you need and filter the rows that are important&lt;/li&gt;
+&lt;li&gt;Compare - group similar things together, understand the deeper visual and statistic patterns&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;get-moves-get:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;http://wwww.analytic-kata.com/moves/get/&#34;&gt;Get&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wwww.analytic-kata.com/images/get_content_small.jpg&#34; alt=&#34;Get Image&#34; /&gt;
+This is your hand on the doorknob to the future of understanding.  With a twist, new insights will be unlocked.  Also - some doors just won&amp;rsquo;t open without a little trickery.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;mix-moves-mix:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;http://wwww.analytic-kata.com/moves/mix/&#34;&gt;Mix&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://wwww.analytic-kata.com/images/mix_content_small.jpg&#34; alt=&#34;Mix Image&#34; /&gt;
 One of these things is not like another.  Or is it?&lt;/p&gt;
 
 &lt;h4 id=&#34;matched-joins:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Matched Joins&lt;/h4&gt;
@@ -212,10 +612,10 @@ within one tool environment.  Remember, limitations will set you free.&lt;/p&gt;
     
     <item>
       <title>Moves : Get</title>
-      <link>http://www.analytic-kata.com/moves/get/</link>
+      <link>http://wwww.analytic-kata.com/moves/get/</link>
       <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.analytic-kata.com/moves/get/</guid>
+      <guid>http://wwww.analytic-kata.com/moves/get/</guid>
       <description>
 
 &lt;h1 id=&#34;import:a420ef0ee38ccc0037cdae57c0bb7573&#34;&gt;Import&lt;/h1&gt;
@@ -234,10 +634,10 @@ within one tool environment.  Remember, limitations will set you free.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>http://www.analytic-kata.com/blog/2015_12_30_core_skills/</link>
+      <link>http://wwww.analytic-kata.com/blog/2015_12_30_core_skills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.analytic-kata.com/blog/2015_12_30_core_skills/</guid>
+      <guid>http://wwww.analytic-kata.com/blog/2015_12_30_core_skills/</guid>
       <description>&lt;p&gt;There is a fundamental gap between simple lists of data - spreadsheets, reports, web pages, and actual understanding of the ebb and flow of information.  While there&amp;rsquo;s certainly oceans of data out there to be sailed by the deep sea vessels of data science, there&amp;rsquo;s a huge amount of un-fished value between the shallows and the unplumbed depths.&lt;/p&gt;
 
 &lt;p&gt;Companies and researchers can extract a gold mine of information out of gigabytes of data - we can dig deeper into the simple, short data we have on our desktops and networks.&lt;/p&gt;
@@ -252,10 +652,10 @@ within one tool environment.  Remember, limitations will set you free.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>http://www.analytic-kata.com/blog/2015_12_30_high_touch/</link>
+      <link>http://wwww.analytic-kata.com/blog/2015_12_30_high_touch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.analytic-kata.com/blog/2015_12_30_high_touch/</guid>
+      <guid>http://wwww.analytic-kata.com/blog/2015_12_30_high_touch/</guid>
       <description>&lt;p&gt;12/30/15&lt;/p&gt;
 
 &lt;p&gt;High Touch Analytics&lt;/p&gt;
@@ -268,10 +668,10 @@ within one tool environment.  Remember, limitations will set you free.&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>http://www.analytic-kata.com/blog/2016_01_02_sample_data/</link>
+      <link>http://wwww.analytic-kata.com/blog/2016_01_02_sample_data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.analytic-kata.com/blog/2016_01_02_sample_data/</guid>
+      <guid>http://wwww.analytic-kata.com/blog/2016_01_02_sample_data/</guid>
       <description>&lt;p&gt;Sample Data Generator&lt;/p&gt;
 
 &lt;p&gt;Ranges within categories
@@ -296,10 +696,10 @@ Points&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>http://www.analytic-kata.com/blog/2016_01_14_three_words/</link>
+      <link>http://wwww.analytic-kata.com/blog/2016_01_14_three_words/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.analytic-kata.com/blog/2016_01_14_three_words/</guid>
+      <guid>http://wwww.analytic-kata.com/blog/2016_01_14_three_words/</guid>
       <description>
 
 &lt;h2 id=&#34;three-words-between-you-and-destiny:bb427db55b75e283d19e49be616df03a&#34;&gt;Three words between you and destiny&lt;/h2&gt;
@@ -318,10 +718,10 @@ Points&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>http://www.analytic-kata.com/blog/2016_01_18_jigsaw/</link>
+      <link>http://wwww.analytic-kata.com/blog/2016_01_18_jigsaw/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.analytic-kata.com/blog/2016_01_18_jigsaw/</guid>
+      <guid>http://wwww.analytic-kata.com/blog/2016_01_18_jigsaw/</guid>
       <description>
 
 &lt;p&gt;#AK Notes
@@ -356,10 +756,10 @@ Points&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>http://www.analytic-kata.com/blog/2016_01_28_naming_is_hard/</link>
+      <link>http://wwww.analytic-kata.com/blog/2016_01_28_naming_is_hard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.analytic-kata.com/blog/2016_01_28_naming_is_hard/</guid>
+      <guid>http://wwww.analytic-kata.com/blog/2016_01_28_naming_is_hard/</guid>
       <description>
 
 &lt;h2 id=&#34;naming-your-dog-is-hard:bd0cc8e940197972c217e9dc27ff00ee&#34;&gt;Naming your dog is hard&lt;/h2&gt;
@@ -387,10 +787,10 @@ That&amp;rsquo;s a lot to ask of luck and your grandfather.  Have a heart!  Part
     
     <item>
       <title></title>
-      <link>http://www.analytic-kata.com/blog/2016_01_30_Transiting_the_Alps/</link>
+      <link>http://wwww.analytic-kata.com/blog/2016_01_30_Transiting_the_Alps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.analytic-kata.com/blog/2016_01_30_Transiting_the_Alps/</guid>
+      <guid>http://wwww.analytic-kata.com/blog/2016_01_30_Transiting_the_Alps/</guid>
       <description>
 
 &lt;h3 id=&#34;transiting-the-alps-with-a-bag-of-chips-a-diet-coke-and-a-little-moxie:e0e38ca4165de622b41cf4d9a9916ef9&#34;&gt;Transiting the Alps with a bag of chips, a diet coke and a little moxie&lt;/h3&gt;
@@ -417,10 +817,10 @@ That&amp;rsquo;s a lot to ask of luck and your grandfather.  Have a heart!  Part
     
     <item>
       <title></title>
-      <link>http://www.analytic-kata.com/blog/2016_02_02_It_has_to_be_personal/</link>
+      <link>http://wwww.analytic-kata.com/blog/2016_02_02_It_has_to_be_personal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.analytic-kata.com/blog/2016_02_02_It_has_to_be_personal/</guid>
+      <guid>http://wwww.analytic-kata.com/blog/2016_02_02_It_has_to_be_personal/</guid>
       <description>
 
 &lt;p&gt;My Theory of Targeted Learning
@@ -438,10 +838,10 @@ That&amp;rsquo;s a lot to ask of luck and your grandfather.  Have a heart!  Part
     
     <item>
       <title></title>
-      <link>http://www.analytic-kata.com/blog/2016_02_05_Overall/</link>
+      <link>http://wwww.analytic-kata.com/blog/2016_02_05_Overall/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.analytic-kata.com/blog/2016_02_05_Overall/</guid>
+      <guid>http://wwww.analytic-kata.com/blog/2016_02_05_Overall/</guid>
       <description>
 
 &lt;h2 id=&#34;analytic-kata:53d4673ac6225077647e21600d944aae&#34;&gt;Analytic Kata&lt;/h2&gt;
@@ -462,10 +862,10 @@ That&amp;rsquo;s a lot to ask of luck and your grandfather.  Have a heart!  Part
     
     <item>
       <title></title>
-      <link>http://www.analytic-kata.com/challengs/AK_Challenge_01_Flipping_Data/</link>
+      <link>http://wwww.analytic-kata.com/challengs/AK_Challenge_01_Flipping_Data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.analytic-kata.com/challengs/AK_Challenge_01_Flipping_Data/</guid>
+      <guid>http://wwww.analytic-kata.com/challengs/AK_Challenge_01_Flipping_Data/</guid>
       <description>
 
 &lt;p&gt;#Analysis Challenge #1 - Flipping the data for the rows&lt;/p&gt;
@@ -619,10 +1019,10 @@ That&amp;rsquo;s a lot to ask of luck and your grandfather.  Have a heart!  Part
     
     <item>
       <title></title>
-      <link>http://www.analytic-kata.com/challengs/Challenge_03_Level_of_Detail/</link>
+      <link>http://wwww.analytic-kata.com/challengs/Challenge_03_Level_of_Detail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.analytic-kata.com/challengs/Challenge_03_Level_of_Detail/</guid>
+      <guid>http://wwww.analytic-kata.com/challengs/Challenge_03_Level_of_Detail/</guid>
       <description>&lt;p&gt;Challenge #3&lt;/p&gt;
 
 &lt;p&gt;Perform level of detail calculations on both up and down the chain of aggregation.&lt;/p&gt;

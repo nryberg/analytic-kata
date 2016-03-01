@@ -1,4 +1,13 @@
-My Theory of Targeted Learning
++++
+title = "My Theory of Targeted Learning"
+description = "Training has to be personal"
+date = "2016-02-02"
+slug = "personal-trainer"
+categories = ["blog", "group"]
++++
+
+
+
 _02/02/16_
 
 ### It has to be personal

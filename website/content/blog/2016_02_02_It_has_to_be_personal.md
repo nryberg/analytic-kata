@@ -6,10 +6,6 @@ slug = "personal-trainer"
 categories = ["blog", "group"]
 +++
 
-
-
-_02/02/16_
-
 ### It has to be personal
 Whatever you're up to, at the end of the day it has to connect in some way shape or form with whatever it is that motivates you out of bed in the morning.  If you're a banker, and you're learning profit margins on fruit, you'd better be a commercial banker who deals primarily with the grocer industry, or perhaps farmers.  If you're a grocer, and you're learning interest rate calculations, then it only makes sense that these would be for loans for new stores or delivery trucks.
 

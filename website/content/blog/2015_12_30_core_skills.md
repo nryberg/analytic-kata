@@ -1,3 +1,10 @@
++++
+title = "Core Skills"
+description = "Bridging the gap with ability"
+date = "2015-12-30"
+slug = "core-skills"
+categories = ["blog", "group"]
++++
 There is a fundamental gap between simple lists of data - spreadsheets, reports, web pages, and actual understanding of the ebb and flow of information.  While there's certainly oceans of data out there to be sailed by the deep sea vessels of data science, there's a huge amount of un-fished value between the shallows and the unplumbed depths.  
 
 Companies and researchers can extract a gold mine of information out of gigabytes of data - we can dig deeper into the simple, short data we have on our desktops and networks.  

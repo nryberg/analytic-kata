@@ -1,9 +1,8 @@
 package main
 
 import (
-	"fmt"
+	//"fmt"
 	// "gopkg.in/yaml.v2"
-	"io/ioutil"
 	"log"
 	"encoding/csv"
 	"os"
@@ -21,36 +20,19 @@ type Fruit struct {
 }
 
 func main() {
-	entries := []Fruit{}
+	//entries := []Fruit{}
 	f, err := os.Open("./base_fruit.csv")
 
 	//	dat, err := ioutil.ReadFile("./base_fruit.csv")
 	if err != nil {
 		log.Println("File Read error: ", err)
 	}
-	err = yaml.Unmarshal(dat, &entries)
-	if err != nil {
-		log.Println("File Read error: ", err)
-	}
-	log.Println("Entry count: ", len(entries))
+	defer f.Close()
 
-	fmt.Println(entries[2])
-	/*
-		entries = append(entries, entry)
+	lines, err := csv.NewReader(f).ReadAll()
+	 if err != nil {
+		 	log.Println("CSV Read Error: ", err)
+	 }
+	log.Println("Entry count: ", len(lines))
 
-		fruit := Fruit{}
-		fruit.Name = "Fred"
-		fruit.Weight = 32
-		fruit.Measure = "Weight"
-
-		entry.Fruit = fruit
-
-		entries = append(entries, entry)
-		d, err := yaml.Marshal(&entries)
-		if err != nil {
-			log.Println("Error: ", err)
-		}
-
-		fmt.Println(string(d))
-	*/
 }

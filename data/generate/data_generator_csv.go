@@ -8,10 +8,11 @@ import (
 	"os"
 )
 
-type Entry struct {
+type entry struct {
 	Fruit
 }
-type Fruit struct {
+
+type fruit struct {
 	Name        string
 	Weight      float32
 	Measure     string

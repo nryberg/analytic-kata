@@ -3,13 +3,14 @@ package main
 import (
 	//"fmt"
 	// "gopkg.in/yaml.v2"
-	"log"
 	"encoding/csv"
+	"fmt"
+	"log"
 	"os"
 )
 
 type entry struct {
-	Fruit
+	fruit
 }
 
 type fruit struct {
@@ -21,7 +22,7 @@ type fruit struct {
 }
 
 func main() {
-	//entries := []Fruit{}
+
 	f, err := os.Open("./base_fruit.csv")
 
 	//	dat, err := ioutil.ReadFile("./base_fruit.csv")
@@ -31,9 +32,9 @@ func main() {
 	defer f.Close()
 
 	lines, err := csv.NewReader(f).ReadAll()
-	 if err != nil {
-		 	log.Println("CSV Read Error: ", err)
-	 }
+	if err != nil {
+		log.Println("CSV Read Error: ", err)
+	}
 	log.Println("Entry count: ", len(lines))
-
+	fmt.Printf(lines[0].Name)
 }

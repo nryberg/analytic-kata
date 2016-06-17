@@ -4,7 +4,6 @@ import (
 	//"fmt"
 	// "gopkg.in/yaml.v2"
 	"encoding/csv"
-	"fmt"
 	"log"
 	"os"
 )
@@ -36,5 +35,5 @@ func main() {
 		log.Println("CSV Read Error: ", err)
 	}
 	log.Println("Entry count: ", len(lines))
-	fmt.Printf(lines[0].Name)
+	// fmt.Printf(lines[0].Name)
 }

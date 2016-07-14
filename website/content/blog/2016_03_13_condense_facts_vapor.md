@@ -4,10 +4,7 @@ description = "We're cycling back and forth between what we _know_ and what real
 date = "2016-03-13"
 slug = "vaporous-facts"
 categories = ["blog", "group"]
-draft= "true"
 +++
-
-## Condensing fact from the vapor of nuance ##
 
 Neal Stephenson's _Snow Crash_
 

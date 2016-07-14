@@ -1,7 +1,11 @@
 baseurl = "http://wwww.analytic-kata.com"
 languageCode = "en-us"
 title = "Analytic-Kata"
-theme = "bootie-docs"
+theme = "purehugo"
+paginate = 10
 [params]
   description = "Learn analysis through action - you learn by movement, develop new ways of thinking and become the master of your own data."
   mainMenu = ["about", "data", "challenges", "tools", "blog"]
+  twitterName = "Analytic_Kata"
+  google_analytics = "UA-80737273-1"
+  githubname = "nryberg/analytic-kata"

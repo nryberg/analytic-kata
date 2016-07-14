@@ -4,11 +4,7 @@ description = "You're building handles to your data, lifting it up, and taking i
 date = "2016-07-12"
 slug = "groups-measures"
 categories = ["blog", "group","overview"]
-draft= "false"
 +++
-
-
-##Groups and Measures##
 
 It all boils down to two things - how do you know what you're looking at, and how big is it?
 
@@ -22,5 +18,5 @@ Mentally speaking, we want to know the label and the amount.  Everything else is
 
 A good measure of how good the analytic tool of choice is how simple or complex it is to group and measure data.  The best tools make the interface fun and physical - you drag the measures here and there, you drop the groups and create charts on the fly.  The picture comes to life in front of you, and suddenly you have handles on what's really (or not) going on.  The worst tools fight you every step of the way, requiring coding, submission to server wait times, and annoying and obscure error messages telling you that you're doing it all wrong anyways.   
 
-As analysts and business partners, your job is to dive deep in the data, come up with some new and handy ways of thinking about the data.  Unless you're doing root cause analysis, your audience _does **not** care_ about how you did it, and what the final numbers really tally up. 
+As analysts and business partners, your job is to dive deep in the data, come up with some new and handy ways of thinking about the data.  Unless you're doing root cause analysis, your audience _does **not** care_ about how you did it, and what the final numbers really add up to.
 

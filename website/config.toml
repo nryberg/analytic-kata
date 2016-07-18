@@ -1,11 +1,110 @@
-baseurl = "http://wwww.analytic-kata.com"
-languageCode = "en-us"
-title = "Analytic-Kata"
-theme = "purehugo"
+# hostname (and path) to the root eg. http://spf13.com/
+baseurl = "/" # In most cases this will work.
+
+# Site title
+title = "sitename"
+
+# Copyright
+copyright = "(c) 2015 yourname."
+
+# Language
+languageCode = "en-EN"
+
+# Metadata format
+# "yaml", "toml", "json"
+metaDataFormat = "yaml"
+
+# Theme to use (located in /themes/THEMENAME/)
+theme = "hugo-bootstrap-premium"
+
+# Pagination
 paginate = 10
+paginatePath = "page"
+
+# Enable Disqus integration
+disqusShortname = "your_disqus_shortname"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "yourname"
+    email = "yourname@example.com"
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
+
+# bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
+# default, flatly, journal,  lumen, paper, readable, sandstone, simplex,
+# slate, spacelab, superhero, united, yeti.
+
+[params.theme]
+  name = "paper"
+
+[params.popover]
+  # This is a highly configurable popover form.
+  enablepopover = false #enable or disable popover: true/false.
+  posturl = "https://zapier.com/hooks/..."
+  headerimage = "//placehold.it/1000x600"
+  expirecookie = 5 #show it again after number of days to visitor that has not subscribed.
+  cookiename = "mycookie1" #give the cookie a unique name variable (avoid spaces and strange characters).
+  signupheader = "Join Our Newsletter"
+  showmodaltimeout = 10000 #show popover modal after time interval in milliseconds.
+  mouseleave = true #show popover when mouse leaves window: true/false.
+  modalsize = "" #lg or sm. Empty is md. If phone is detected lg is used.
+  imagedescription = "Placeholder image for this popover modal optin form"
+  signuptext = "Signup today for free and be the first to get notified on new updates."
+  inputplaceholder = "Enter your email"
+  submitbutton = "Subscribe"
+  successmessage = "Thanks for your subscription!"
+  errormessage = "Submitting form failed!"
+  optin = true #opt-in: true/false
+
 [params]
-  description = "Learn analysis through action - you learn by movement, develop new ways of thinking and become the master of your own data."
-  mainMenu = ["about", "data", "challenges", "tools", "blog"]
-  twitterName = "Analytic_Kata"
-  google_analytics = "UA-80737273-1"
-  githubname = "nryberg/analytic-kata"
+    # You can use markdown here.
+    BrandImage = "http://blog.appernetic.io/images/apperneticlogo.png" #top header brand image.
+    brand = "Appernetic blog" # brand image alt text.
+    topline = "few words about your site"
+    footline = "code with <i class='fa fa-heart'></i>"
+
+    # Show a sidebar menu
+    showRightSidebar = true
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "home"
+
+    mailmunchid = "" # Mailmunch site id
+    sumomeid = "" # Sumome id
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "default"
+
+    # Google Analytics.
+    googleAnalytics = "Your Google Analytics tracking code"
+
+    # Sidebar social links.
+    github = "enten/hugo-boilerplate" # Your Github profile ID
+    bitbucket = "" # Your Bitbucket profile ID
+    linkedin = "" # Your LinkedIn profile ID (from public URL)
+    googleplus = "" # Your Google+ profile ID
+    facebook = "" # Your Facebook profile ID
+    twitter = "" # Your Twitter profile ID
+    youtube = ""  # Your Youtube channel ID
+    flattr = ""  # populate with your flattr uid
+
+[blackfriday]
+    angledQuotes = true
+    fractions = false
+    hrefTargetBlank = false
+    latexDashes = true
+    plainIdAnchors = true
+    extensions = []
+    extensionmask = []

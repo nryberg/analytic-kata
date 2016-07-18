@@ -1,2 +1,3 @@
 /website/public/
-/website/themes/
+/website/themes/*
+!/website/themes/reggie/

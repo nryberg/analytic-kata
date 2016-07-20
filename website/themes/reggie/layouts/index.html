@@ -1,10 +1,27 @@
 {{ partial "header.html" . }}
 {{ partial "navbar.html" . }}
 <body>
-  <h1>Hello, world!</h1>
+  <div class="container">
+    <div class="row">
+    	<!-- Main jumbotron for a primary marketing message or call to action -->
+    	<div class="jumbotron">
+    		<h1>{{ .Site.Title }}</h1>
+    		<p>{{ if isset .Site.Params "description" }}{{ .Site.Params.description }}{{ else }}You can customize this text by params "description" in your <code>config.toml</code>.{{ end }}</p>
+    	</div>
+    </div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
+    
+  <h1>posts</h1>
+  {{ range first 10 .Data.Pages }}
+    {{ if eq .Type "post"}}
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    {{ end }}
+  {{ end }}
+  <h1>pages</h1>
+  {{ range .Data.Pages }}
+    {{ if eq .Type "page" }}
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    {{ end }}
+  {{ end }}
+</div>
 </body>

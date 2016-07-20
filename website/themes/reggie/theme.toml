@@ -3,6 +3,7 @@
 
 name = "Reggie"
 license = "MIT"
+source_repo = ""
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
 description = ""
 homepage = "http://siteforthistheme.com/"
@@ -11,11 +12,5 @@ features = ["", ""]
 min_version = 0.14
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Nick Ryberg"
+  homepage = "https://github.com/nryberg"

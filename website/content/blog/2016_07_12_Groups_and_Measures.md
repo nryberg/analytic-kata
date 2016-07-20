@@ -2,7 +2,6 @@
 title = "Groups and Measures"
 description = "You're building handles to your data, lifting it up, and taking its measure. "
 date = "2016-07-12"
-slug = "groups-measures"
 categories = ["blog", "group","overview"]
 +++
 

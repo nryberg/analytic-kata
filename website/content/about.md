@@ -31,7 +31,7 @@ Every set of kata will have at least three levels of difficulty.  The simple sho
 
 The major forms are:
 
-### [Get](/forms/get/)  - Gather the data and prep it for analysis
+### [Get](/form/get/)  - Gather the data and prep it for analysis
 ### [Mix](/forms/mix/) - join datasets into a more comprehensive picture
 ### [Fix](/forms/fix/) - apply formulas and clean up data
 ### [Pick](/forms/pick/) - choose wisely and succeed, choose poorly and weep
@@ -39,4 +39,3 @@ The major forms are:
 ### [Measure](/forms/measure/) - Metrics give shape, paint that shape on the page
 ### [Chart](/forms/chart/) - bring the data to life on the screen
 ### [Share](/forms/share/) - Give back to your audience, friends and neighbors
-

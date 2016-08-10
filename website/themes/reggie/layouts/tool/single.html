@@ -1,16 +1,14 @@
 {{ partial "header.html" . }}
-{{ partial "navbar_blog.html" . }}
+{{ partial "navbar_tool.html" . }}
 <head>
   <title>{{ .Title }}</title>
 </head>
 
 {{ partial "navbar.html" . }}
 <body>
-  <div class="container">
-
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
-    </div>
-
+    <div class="container">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</div>
 </body>
 </html>

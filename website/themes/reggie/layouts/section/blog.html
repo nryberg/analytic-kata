@@ -4,14 +4,21 @@
   <div class="container">
 
     <h1>Blog</h1>
-    <section class="panel">
-      <div class="panel-body">
-
-        {{ range first 20 .Data.Pages.ByTitle }}
-          <h3>{{ .Title }}</h3>
-        {{ end }}
+    {{ range .Data.Pages }}
+      <div class=".col-sm-1">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time>
       </div>
-    </section>
+      <div class=".col-sm-8">
+        <a class="doc-entry" href="{{ .RelPermalink }}">
+          <h3 class="doc-entry-title">{{ .Title }}{{ if .Draft }} #Draft{{ end }}</h3>
+        </a>
+        <p class="doc-entry-description">{{.Description}}</p>
+        <p class="doc-entry-meta"></p>
+
+      </div>
+
+
+  	{{ end }}
   </div>
 </body>
 </html>

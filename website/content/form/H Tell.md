@@ -1,8 +1,8 @@
 +++
 title = "Tell"
-description = ""
+description = "Finally, tell them what you were going to tell them again"
 tags = ["Tell", "forms"]
-date = "2016-08-08"
+date = "2016-01-09"
 categories = [
   "Forms"
 ]

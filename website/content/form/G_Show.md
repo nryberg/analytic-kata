@@ -1,8 +1,8 @@
 +++
 title = "Show"
-description = ""
+description = "Getting your audience on the same page _requires_ visuals"
 tags = ["Show"]
-date = "2016-01-02"
+date = "2016-01-08"
 categories = [
   "Forms"
 ]

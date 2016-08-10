@@ -9,7 +9,7 @@
         <p>These are the common paths to analytic greatness</p>
 
 
-        {{ range first 20 .Data.Pages.ByTitle }}
+        {{ range first 20 .Data.Pages.ByDate}}
 
         <div class=".col-sm-8">
           <a class="doc-entry" href="{{ .RelPermalink }}">
@@ -20,7 +20,7 @@
         </div>
 
 
-      
+
         {{ end }}
       </div>
     </section>

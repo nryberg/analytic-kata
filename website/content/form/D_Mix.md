@@ -1,8 +1,8 @@
 +++
-title = "Forms : Mix"
-description = ""
+title = "Mix"
+description = "The real power of analytics is combining multiple sources"
 tags = ["mix", "forms"]
-date = "2016-01-02"
+date = "2016-01-05"
 categories = [
   "Forms"
 ]
@@ -33,5 +33,3 @@ Rarely but significantly it makes sense to join every possible match of one
 dataset to every possible match of another dataset.  While this can generate
 massive amounts of data, it can also open up insights otherwise impossible to
 uncover.
-
-

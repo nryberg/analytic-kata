@@ -1,5 +1,5 @@
 +++
-title = "Forms : Collect"
+title = "Collect"
 description = "This is the beginning of your journey through the data - get it in gear"
 tags = ["collect", "forms"]
 date = "2016-01-02"

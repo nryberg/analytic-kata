@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+{{ partial "navbar_form.html" . }}
+<body>
+  <div class="container">
+
+    <h1>Kata Forms</h1>
+    <section class="panel">
+      <div class="panel-body">
+        <p>These are the common paths to analytic greatness</p>
+
+
+        {{ range first 20 .Data.Pages.ByTitle }}
+          <h3>{{ .Title }}</h3>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+</body>
+</html>

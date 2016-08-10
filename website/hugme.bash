@@ -3,3 +3,4 @@
 #hugo server --theme=hugo-theme-bootie-docs --buildDrafts
 #hugo server --theme=hugo-material-docs --buildDrafts
 hugo server --theme=reggie --buildDrafts --verbose --watch
+#hugo server --theme=hyde --buildDrafts --verbose --watch

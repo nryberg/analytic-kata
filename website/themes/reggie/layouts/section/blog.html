@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+{{ partial "navbar_blog.html" . }}
+<body>
+  <div class="container">
+
+    <h1>Blog</h1>
+    <section class="panel">
+      <div class="panel-body">
+
+        {{ range first 20 .Data.Pages.ByTitle }}
+          <h3>{{ .Title }}</h3>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+</body>
+</html>

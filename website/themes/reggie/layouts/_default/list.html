@@ -3,7 +3,6 @@
 <body>
   <div class="container">
 
-  <h1> Blog content list</h1>
   {{ range .Data.Pages }}
     <div class=".col-sm-1">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time>

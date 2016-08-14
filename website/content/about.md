@@ -28,14 +28,3 @@ Forms
 Most martial arts disciplines have a variety of basic moves using parts of the body in combinations.  Analytics has a similar vocabulary of moves that are built together into combinations.
 
 Every set of kata will have at least three levels of difficulty.  The simple should be a nice starting point, and the expert levels ideally fiendish.
-
-The major forms are:
-
-### [Get](/form/get/)  - Gather the data and prep it for analysis
-### [Mix](/forms/mix/) - join datasets into a more comprehensive picture
-### [Fix](/forms/fix/) - apply formulas and clean up data
-### [Pick](/forms/pick/) - choose wisely and succeed, choose poorly and weep
-### [Group](/forms/group/) - group similar things together, understand the deeper visual and statistic patterns
-### [Measure](/forms/measure/) - Metrics give shape, paint that shape on the page
-### [Chart](/forms/chart/) - bring the data to life on the screen
-### [Share](/forms/share/) - Give back to your audience, friends and neighbors

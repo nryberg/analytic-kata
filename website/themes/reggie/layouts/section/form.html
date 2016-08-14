@@ -1,7 +1,7 @@
 <body style="font-size:14px">
+  {{ partial "header.html" . }}
+  {{ partial "navbar_form.html" . }}
   <div class="container">
-    {{ partial "header.html" . }}
-    {{ partial "navbar_form.html" . }}
   <h1>Kata Forms</h1>
       <div class="row">
         <h4>A form is a pattern you follow, repeat, iterate and learn from.
@@ -10,9 +10,9 @@
       </div>
       {{ range first 20 .Data.Pages.ByDate}}
         <div class="row">
-          <div class="col-md-6">
-            {{ if .Params.image }}
-            <div class="col-md-3">
+
+              {{ if .Params.image }}
+            <div class="col-md-2">
               <a class="doc-entry" href="{{ .RelPermalink }}">
                 <img src="{{.Params.image}}">
               </a>
@@ -24,11 +24,10 @@
               </a>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-8">
               <p class="doc-entry-description">{{.Description}}</p>
             </div>
 
-          </div>
         </div>
       {{ end }}
   </div>

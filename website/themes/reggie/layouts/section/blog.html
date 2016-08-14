@@ -1,22 +1,33 @@
 <body>
+  {{ partial "header.html" . }}
+  {{ partial "navbar_blog.html" . }}
   <div class="container">
-    {{ partial "header.html" . }}
-    {{ partial "navbar_blog.html" . }}
 
     <h1>Blog</h1>
     {{ range .Data.Pages }}
-      <div class=".col-sm-1">
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time>
-      </div>
+    <div class="row">
+
       <div class=".col-sm-8">
         <a class="doc-entry" href="{{ .RelPermalink }}">
-          <h3 class="doc-entry-title">{{ .Title }}{{ if .Draft }} #Draft{{ end }}</h3>
+
+          <h3 class="doc-entry-title">
+            <section class=".com-sm-6">
+              {{ .Title }}{{ if .Draft }} #Draft{{ end }}
+            </section>
+            <section class=".col-sm-1">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01/02/06" }}</time>
+            </section>
+          </h3>
         </a>
+        <h3>
+
+        </h3>
         <p class="doc-entry-description">{{.Description}}</p>
         <p class="doc-entry-meta"></p>
 
       </div>
 
+    </div>
 
   	{{ end }}
   </div>

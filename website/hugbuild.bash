@@ -1,2 +1,2 @@
 #!/bin/bash
-hugo  --theme=purehugo
+hugo  --theme=reggie

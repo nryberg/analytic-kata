@@ -45,7 +45,7 @@ paginatePath = "page"
 
 [params]
     # You can use markdown here.
-    description = "Learn analysis through action - you learn by movement, develop new ways of thinking and become the master of your own data."
+    description = "Learn analysis through action - learn by movement, develop new ways of thinking, become the master of your own data : change your world"
     # Google Analytics.
     googleAnalytics = "Your Google Analytics tracking code"
 

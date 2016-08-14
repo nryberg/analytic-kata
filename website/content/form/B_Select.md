@@ -1,6 +1,7 @@
 +++
 title = "Select"
 description = "Choosy choosers choose best"
+image = "/images/pick_small.png"
 tags = ["pick", "forms"]
 date = "2016-01-03"
 categories = [

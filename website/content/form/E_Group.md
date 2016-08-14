@@ -1,6 +1,7 @@
 +++
 title = "Group"
 description = "The world can be thought of as a series of groups - you choose the level"
+image = "/images/group_small.png"
 tags = ["group", "forms"]
 date = "2016-01-06"
 categories = [

@@ -1,6 +1,7 @@
 +++
 title = "Fix"
 description = "No data is perfect from the source - you always have to clean and prep."
+image = "/images/fix_small.png"
 tags = ["fix", "forms"]
 date = "2016-01-04"
 categories = [

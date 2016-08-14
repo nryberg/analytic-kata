@@ -1,6 +1,7 @@
 +++
 title = "Show"
 description = "Getting your audience on the same page _requires_ visuals"
+image = "/images/show_small.png"
 tags = ["Show"]
 date = "2016-01-08"
 categories = [

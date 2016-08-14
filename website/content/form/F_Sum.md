@@ -1,7 +1,8 @@
 +++
-title = "Measure"
+title = "Sum"
 description = "Comparisons are best made with a sense of size"
-tags = ["measure", "forms"]
+image = "/images/sum_small.png"
+tags = ["sum", "forms"]
 date = "2016-01-07"
 categories = [
   "Forms"

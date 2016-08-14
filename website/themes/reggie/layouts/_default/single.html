@@ -1,7 +1,9 @@
-{{ partial "header.html" . }}
-{{ partial "navbar.html" . }}
-<body>
+
+<body style="font-size:14px">
   <div class="container">
+    {{ partial "header.html" . }}
+    {{ partial "navbar.html" . }}
+
     <h1>{{ .Title }}</h1>
     {{ .Content }}
 

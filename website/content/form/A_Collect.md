@@ -1,6 +1,7 @@
 +++
 title = "Collect"
 description = "This is the beginning of your journey through the data - get it in gear"
+image = "/images/collect_small.jpg"
 tags = ["collect", "forms"]
 date = "2016-01-02"
 categories = [

@@ -1,29 +1,36 @@
-{{ partial "header.html" . }}
-{{ partial "navbar_form.html" . }}
-<body>
+<body style="font-size:14px">
   <div class="container">
-
-    <h1>Kata Forms</h1>
-    <section class="panel">
-      <div class="panel-body">
-        <p>These are the common paths to analytic greatness</p>
-
-
-        {{ range first 20 .Data.Pages.ByDate}}
-
-        <div class=".col-sm-8">
-          <a class="doc-entry" href="{{ .RelPermalink }}">
-            <h3 class="doc-entry-title">{{ .Title }}{{ if .Draft }} #Draft{{ end }}</h3>
-          </a>
-          <p class="doc-entry-description">{{.Description}}</p>
-          <p class="doc-entry-meta"></p>
-        </div>
-
-
-
-        {{ end }}
+    {{ partial "header.html" . }}
+    {{ partial "navbar_form.html" . }}
+  <h1>Kata Forms</h1>
+      <div class="row">
+        <h4>A form is a pattern you follow, repeat, iterate and learn from.
+          The data won't be the same, the techniques are universal.
+        </h4>
       </div>
-    </section>
+      {{ range first 20 .Data.Pages.ByDate}}
+        <div class="row">
+          <div class="col-md-6">
+            {{ if .Params.image }}
+            <div class="col-md-3">
+              <a class="doc-entry" href="{{ .RelPermalink }}">
+                <img src="{{.Params.image}}">
+              </a>
+            </div>
+            {{ end }}
+            <div class="col-md-3">
+              <a class="doc-entry" href="{{ .RelPermalink }}">
+                <h3 class="doc-entry-title">{{ .Title }}{{ if .Draft }} #Draft{{ end }}</h3>
+              </a>
+            </div>
+
+            <div class="col-md-6">
+              <p class="doc-entry-description">{{.Description}}</p>
+            </div>
+
+          </div>
+        </div>
+      {{ end }}
   </div>
 </body>
 </html>

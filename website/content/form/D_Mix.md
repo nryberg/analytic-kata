@@ -1,6 +1,7 @@
 +++
 title = "Mix"
 description = "The real power of analytics is combining multiple sources"
+image = "/images/mix_small.png"
 tags = ["mix", "forms"]
 date = "2016-01-05"
 categories = [

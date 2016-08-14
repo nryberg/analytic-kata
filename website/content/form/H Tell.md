@@ -1,6 +1,7 @@
 +++
 title = "Tell"
 description = "Finally, tell them what you were going to tell them again"
+image = "/images/tell_small.png"
 tags = ["Tell", "forms"]
 date = "2016-01-09"
 categories = [

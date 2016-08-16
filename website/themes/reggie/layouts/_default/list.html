@@ -1,8 +1,7 @@
 {{ partial "header.html" . }}
-{{ partial "navbar.html" . }}
 <body>
+  {{ partial "navbar.html" . }}
   <div class="container">
-
   {{ range .Data.Pages }}
     <div class=".col-sm-1">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time>

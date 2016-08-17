@@ -7,7 +7,7 @@ import (
 	"io"
 	"log"
 	"os"
-	"flag"
+	// "flag"
 	// "path"
 	// "strings"
 )
@@ -17,10 +17,20 @@ func check(e error) {
 		panic(e)
 	}
 }
-
+// TODO: Add flags rather than
+// position based arguments
 func main() {
+	var file_in, file_out string
 	args := os.Args[1:]
-	file_in := args[0]
+	num_args := len(args)
+	fmt.Println(num_args)
+	switch num_args {
+		case 1: file_in = args[0]
+		case 2:
+			file_in = args[0]
+			file_out = args[1]
+	}
+
 	// path := path.Base(file_in)
 
 	// file_chunks := strings.Split(path, ".")
@@ -59,5 +69,15 @@ func main() {
 		// fmt.Println(record)
 	}
 	working += "</table>\n"
-	fmt.Println(working)
+
+	if num_args > 1 {
+		out, err := os.Create(file_out)
+		check(err)
+		w := bufio.NewWriter(out)
+		_, err = w.WriteString(working)
+		check(err)
+		w.Flush()
+	} else {
+		fmt.Println(working)
+	}
 }

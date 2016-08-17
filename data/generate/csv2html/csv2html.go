@@ -7,8 +7,9 @@ import (
 	"io"
 	"log"
 	"os"
-	"path"
-	"strings"
+	"flag"
+	// "path"
+	// "strings"
 )
 
 func check(e error) {
@@ -18,21 +19,36 @@ func check(e error) {
 }
 
 func main() {
-	file_in := "base_fruit.csv"
-	path := path.Base(file_in)
+	args := os.Args[1:]
+	file_in := args[0]
+	// path := path.Base(file_in)
 
-	file_chunks := strings.Split(path, ".")
-	file_out := file_chunks[0] + ".html"
-	fmt.Println(file_chunks)
+	// file_chunks := strings.Split(path, ".")
+	// file_out := file_chunks[0] + ".html"
+	// fmt.Println(file_chunks)
 
-	fmt.Println(path)
-	fmt.Println(file_out)
 	f, err := os.Open(file_in)
 	check(err)
 	r := csv.NewReader(bufio.NewReader(f))
-
+	row_num := 1
+	working := "<table>\n"
 	for {
 		record, err := r.Read()
+		if row_num == 1 {
+			working += "<th>"
+			for _, v := range record {
+				working += "<td>" + v + "</td>\n"
+			}
+			working += "</th>"
+		} else {
+			working += "<tr>"
+			for _, v := range record {
+				working += "<td>" + v + "</td>\n"
+			}
+			working += "</tr>"
+		}
+		row_num += 1
+
 		if err == io.EOF {
 			break
 		}
@@ -40,6 +56,8 @@ func main() {
 			log.Fatal(err)
 		}
 
-		fmt.Println(record)
+		// fmt.Println(record)
 	}
+	working += "</table>\n"
+	fmt.Println(working)
 }

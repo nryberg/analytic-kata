@@ -19,6 +19,9 @@ func check(e error) {
 }
 // TODO: Add flags rather than
 // position based arguments
+// TODO: Add Style
+// 			 Add markdown format
+
 func main() {
 	var file_in, file_out string
 	args := os.Args[1:]

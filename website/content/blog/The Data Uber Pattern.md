@@ -49,3 +49,8 @@ Gas-n-go, 30, 4000
 Urban, 120, 10000
 Metro, 400, 12000
 Suburban, 1000, 125000
+
+First Header  | Second Header
+  ------------- | -------------
+  Content Cell  | Content Cell
+  Content Cell  | Content Cell

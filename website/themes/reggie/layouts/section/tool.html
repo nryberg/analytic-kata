@@ -10,7 +10,12 @@
 
 
         {{ range first 20 .Data.Pages.ByTitle }}
-          <h3>{{ .Title }}</h3>
+        <h3>
+          <a class="doc-entry" href="{{ .RelPermalink }}">
+            {{ .Title }}{{ if .Draft }} #Draft{{ end }}
+
+          </a>
+        </h3>
         {{ end }}
       </div>
     </section>

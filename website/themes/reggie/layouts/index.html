@@ -1,14 +1,16 @@
-{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
 <body>
-  {{ partial "navbar.html" . }}
   <div class="container">
     <div class="row">
-    	<!-- Main jumbotron for a primary marketing message or call to action -->
-    	<div class="jumbotron">
-    		<h1>{{ .Site.Title }}</h1>
-    		<p>{{ if isset .Site.Params "description" }}{{ .Site.Params.description }}
-          {{ else }}You can customize this text by params "description" in your <code>config.toml</code>.{{ end }}</p>
-    	</div>
+      <div class=".col-sm-2">
+        <img src="images/analytic_kata_small.jpg" alt="" />
+      </div>
+      <div class=".col-sm-10">
+
+      		<h1>{{ .Site.Title }}</h1>
+      		<p>{{ if isset .Site.Params "description" }}{{ .Site.Params.description }}
+            {{ else }}You can customize this text by params "description" in your <code>config.toml</code>.{{ end }}</p>
+      </div>
     </div>
 
   {{ range .Data.Pages }}

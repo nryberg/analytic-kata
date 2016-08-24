@@ -6,8 +6,24 @@
 <body>
   {{ partial "navbar_form.html"}}
     <div class="container">
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
+      <div class="row">
+
+        {{ if .Params.image }}
+          <div class="col-md-2">
+            <a class="doc-entry" href="{{ .RelPermalink }}">
+              <img src="{{.Params.image}}">
+            </a>
+          </div>
+        {{ end }}
+      </div>
+      <div class="row">
+        <h1>{{ .Title }}</h1>
+
+      </div>
+    <div class="row">
+      {{ .Content }}
+    </div>
+
 </div>
 </body>
 </html>

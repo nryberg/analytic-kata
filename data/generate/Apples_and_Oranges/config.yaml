@@ -1,0 +1,9 @@
+facts :
+  about : Wholesale fruit sales to stores
+  name : sales
+  date_scale : weeks
+  quantity_low : 1
+  quantity_high : 30
+dimensions :
+- fruit
+- stores

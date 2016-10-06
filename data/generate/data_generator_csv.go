@@ -4,6 +4,7 @@ import (
 	//"fmt"
 	// "gopkg.in/yaml.v2"
 	"encoding/csv"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"os"
@@ -11,15 +12,19 @@ import (
 	yaml "gopkg.in/yaml.v1"
 )
 
+// Facts is the basis
+type Facts struct {
+	About        string
+	Name         string
+	DateScale    string `yaml:"date_scale"`
+	QuantityLow  int    `yaml:"quantity_low"`
+	QuantityHigh int    `yaml:"quantity_high"`
+}
+
+// Config sets the stage for building data
 type Config struct {
-	facts struct {
-		description  string
-		name         string
-		dateScale    string
-		quantityLow  int
-		quantityHigh int
-	}
-	dimensions []string
+	Facts
+	Dimensions []string
 }
 
 type entry struct {
@@ -48,14 +53,16 @@ func main() {
 	}
 
 	var config Config
-
+	log.Print("About to load config")
 	configFile, err := ioutil.ReadFile("./Apples_and_Oranges/config.yaml")
 	check(err)
 
 	err = yaml.Unmarshal(configFile, &config)
 	check(err)
 
-	//	dat, err := ioutil.ReadFile("./base_fruit.csv")
+	fmt.Println(config.DateScale)
+	fmt.Println(config.QuantityLow)
+	fmt.Println(config.QuantityHigh)
 
 	defer f.Close()
 

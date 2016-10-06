@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+<head>
+  <title>{{ .Title }}</title>
+</head>
+
+<body>
+  {{ partial "navbar_kata.html"}}
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </div>
+</body>

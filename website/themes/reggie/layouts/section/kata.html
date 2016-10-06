@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+<body>
+  {{ partial "navbar_kata.html" . }}
+  <div class="container">
+
+    <h1>Kata Exercises</h1>
+
+        {{ range first 20 .Data.Pages.ByTitle }}
+        <h3>
+          <a class="doc-entry" href="{{ .RelPermalink }}">
+            {{ .Title }}{{ if .Draft }} #Draft{{ end }}
+
+          </a>
+        </h3>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+</body>
+</html>

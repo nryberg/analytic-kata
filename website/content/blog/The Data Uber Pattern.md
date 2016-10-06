@@ -22,35 +22,77 @@ Three Dimensions
 - Location - grocrey store, fruit stand, gas station
 - Transactions - price, type, location, date, weight??
 
-Two Dimensions
-Two Facts
+Three Dimensions to build the context - one of which should be outside one of the other two.
+One Fact Table to join them all
 
 Dimensions should chain, and should be more or less static.  Though it could have small variations??
 Facts should be relatable (hard?).  Facts are generated randomly, and should vary moderately.
 
+
 Stores Sample
-D1 : Fruit Attributes
-D2 : Store Demographics
-F1 : Bulk Fruit Purchased
-F2 : Retail Fruit Sold
+Dimension_1 : Fruit Attributes
+Dimension_D2 : Store Attributes
+Dimension_D3 : Location Demographics
+Fact : Retail Fruit Sold
 
 Data should be randomly generated every week, packaged and compressed into single zip file.
 
-## D1 Fruit attributes
-Name, Weight_lbs, Wholesale_Price, Crate_Size_Lbs
-Apple, .33, 31.00, 33
-Banana, .40, 17.00, 40
-Orange, .375, 20.00 , 33
+## D1 Fruit Facts
+<table class='table'>
+ <tr>
+  <th>Name</th>  <th> Weight_lbs</th>  <th> Wholesale_Price</th>  <th> Crate_Size_Lbs</th> </tr>
+ <tr>
+  <td>Apple</td>  <td> .33</td>  <td> 31.00</td>  <td> 33</td> </tr>
+ <tr>
+  <td>Banana</td>  <td> .40</td>  <td> 17.00</td>  <td> 40</td> </tr>
+ <tr>
+  <td>Orange</td>  <td> .375</td>  <td> 20.00 </td>  <td> 33</td> </tr>
+ <tr>
+ </tr>
+</table>
 
-## D2 Store Demographics
-Category, Volume, Footprint
-Mom-n-pop, 10, 2500
-Gas-n-go, 30, 4000
-Urban, 120, 10000
-Metro, 400, 12000
-Suburban, 1000, 125000
+## D2 Store Facts
 
-First Header  | Second Header
-  ------------- | -------------
-  Content Cell  | Content Cell
-  Content Cell  | Content Cell
+<table class='table'>
+ <tr>
+  <th>Category</th>  <th> Volume</th>  <th> Footprint</th> </tr>
+ <tr>
+  <td>Mom-n-pop</td>  <td> 10</td>  <td> 2500</td> </tr>
+ <tr>
+  <td>Gas-n-go</td>  <td> 30</td>  <td> 4000</td> </tr>
+ <tr>
+  <td>Urban</td>  <td> 120</td>  <td> 10000</td> </tr>
+ <tr>
+  <td>Metro</td>  <td> 400</td>  <td> 12000</td> </tr>
+ <tr>
+  <td>Suburban</td>  <td> 1000</td>  <td> 125000</td> </tr>
+ <tr>
+ </tr>
+</table>
+
+Other Examples
+===
+
+Bike Rentals
+D1 : Bicycle model
+D2 : Manufacturer
+D3 : Location
+Fact : Rental, Time, Bike, Location
+
+Basketball Games
+D1 : team one
+D2 : team two
+D3 : school?
+Fact: Games, Scores, Date, ?
+
+Banks and Bucks
+D1 : Customer
+D2 : Branch
+D3 : Product
+Fact : Accounts, Balances, Last Use Date, Customer
+
+Education
+D1 : Student
+D2 : Class
+D3 : Grade
+Fact : Class, Grade, Completed Date, Student ??

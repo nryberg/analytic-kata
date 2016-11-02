@@ -28,3 +28,19 @@
 
 == Basic structure of data generation ==
 Combining random values within a limits.  Quantities are limited, possible items are limited.  Building out those limitations is the hard part - can you do it in a way that's easy to maintain?
+
+Make a pattern that's reasonably predictable:
+
+Dimensions -
+* Index Number - 1, 2, 3, 4, 5 -
+* Name - Simple Text - Apple, Orange, Banana
+* Varying Value - size, weight, value, fee, cost, rate - something to be multiplied
+
+Fact - only one
+* Date - within limits - varying atomicity
+* Dimension One Index
+* Dimension One Value - quantity
+* Dimension Two Index
+
+== General Feel ==
+Should _feel_ like real data, but not really - has to straddle the line.  Setting the params is the hardest part.

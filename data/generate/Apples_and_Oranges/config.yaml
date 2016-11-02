@@ -6,4 +6,5 @@ facts :
   quantity_high : 30
 dimensions :
 - fruit
+  
 - stores

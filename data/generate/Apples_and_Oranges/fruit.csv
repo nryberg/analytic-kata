@@ -1,6 +1,6 @@
-Fruit_ID,name,weight,gross_price,gross_measure,gross_count,gross_weight,type
-1,Banana,2,14.00,weight,-,40,berry
-2,Apple,0.33,22.00,count,56,-,pome
-3,Grape,1,4.33,weight,-,48,berry
-4,Coconut,1.5,34.00,weight,-,40,drupe
-5,Orange,.28,25.00,weight,-,33.00,hesperidium
+Fruit_ID,name,type,low_gross_price,retail_price
+1,Banana,berry,.35,.425
+2,Apple,pome,.66,.77
+3,Grape,berry,
+4,Coconut,drupe,1.5,34.00
+5,Orange,hesperidium,.28,25.00

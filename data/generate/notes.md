@@ -34,7 +34,9 @@ Make a pattern that's reasonably predictable:
 Dimensions -
 * Index Number - 1, 2, 3, 4, 5 -
 * Name - Simple Text - Apple, Orange, Banana
-* Varying Value - size, weight, value, fee, cost, rate - something to be multiplied
+* Category - Something to group by
+* Value Low - bottom Value limit
+* Value High - top Value limit
 
 Fact - only one
 * Date - within limits - varying atomicity

@@ -1,6 +1,6 @@
 Fruit_ID,name,type,low_gross_price,retail_price
 1,Banana,berry,.35,.425
 2,Apple,pome,.66,.77
-3,Grape,berry,
-4,Coconut,drupe,1.5,34.00
-5,Orange,hesperidium,.28,25.00
+3,Grape,berry,1.31,1.47
+4,Coconut,drupe,.52,.55
+5,Orange,hesperidium,.55,.57

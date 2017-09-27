@@ -11,3 +11,5 @@ dimensions :
 - stores
   unit : sale
   value : quantity
+- store_size
+  

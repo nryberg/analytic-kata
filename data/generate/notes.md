@@ -2,7 +2,7 @@
 
 * Apples and Oranges
 * Bike Rentals
-* C
+* Cats and Dogs
 * D
 * E
 * Finance
@@ -35,9 +35,8 @@ Dimensions -
 * Index Number - 1, 2, 3, 4, 5 -
 * Name - Simple Text - Apple, Orange, Banana
 * Category - Something to group by
-* Value Low - bottom Value limit
-* Value High - top Value limit
-
+* Value - something to multiply by
+*
 Fact - only one
 * Date - within limits - varying atomicity
 * Dimension One Index
